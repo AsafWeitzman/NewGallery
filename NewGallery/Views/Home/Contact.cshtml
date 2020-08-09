@@ -1,0 +1,77 @@
+﻿@{
+    ViewBag.Title = "About & Content";
+}
+
+<link href="@Url.Content("~/Content/Content.css")" rel="stylesheet" type="text/css" />
+
+
+
+
+<div>
+    <img src="~/images/PHOTO9.jpg" alt="Image">
+</div>
+
+
+
+<div class="container"
+
+<p>
+   <h3><b>About us:</b></h3>
+    M.A.N.S Gallery is located in a white cube space in Tel Aviv, at the heart of an emerging industrial and cultural area.
+    Since opening their doors in 2019, M.A.N.S Gallery has become a prominent part of the growing local and national art scene.
+    M.A.N.S Gallery’s curatorial approach is based on a deep vision and desire to bridge interactions between artists, collectors, and their audience.
+    Each show is conceived as an inventive project that balances a selection of emerging and mid-career artists along with established ones, whose practices deserve contextualization.
+    Through solo exhibitions and curated group shows, the gallery continually creates an invigorating theoretical discourse around its shows,
+    both at home and on an international level, by inviting guest curators to contribute to their vision of the program.
+
+    The gallery was founded by Michal Rotenberg and Shoval Raphael Currently owned and managed by Asaf Weitzman and Nir Abadi.
+</p>
+
+    <p>
+        <div id="googleMap" style="width:100%;height:400px;"></div>
+
+
+        <script>
+            function myMap() {
+                var mapProp = {
+                    center: new google.maps.LatLng(32.075477, 34.784112),
+                    zoom: 10,
+                };
+                var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+                new google.maps.Marker({
+                    position: new google.maps.LatLng(32.075477, 34.784112),
+                    map,
+                    title: "Our Gallery!"
+                });
+            }
+
+
+        </script>
+
+         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpFYFi_er_lwrn1oM1hY5A3rY_EnsyvWM&callback=myMap"></script>
+
+    </p>
+
+<h3><b>Content:</b></h3>
+
+    <address>
+        33 Bar yochai st<br />
+        Tel Aviv, 66556<br />
+        <abbr title="Phone">Tel.:</abbr>
+        972-3-6183312
+        <strong>Support:</strong>   <a href="mailto:Support@example.com">MANS.gallery@gmail.com</a><br />
+        <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">MANS.gallery@gmail.com</a>
+    </address>
+
+
+
+<h3><b>Current team:</b></h3>
+
+<p>
+    Nir Abadi, Michal Rotenberg ,Asaf Weitzman,Shoval Raphael
+</p>
+
+
+    </div>
+
+

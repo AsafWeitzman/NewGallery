@@ -1,0 +1,31 @@
+﻿* {
+    margin:0 auto;
+    padding:0;
+}
+
+h3{
+    text-shadow:5px 5px 10px pink;
+}
+p {
+    
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-right: 10 0px;
+    margin-left: 80px;
+}
+
+address {
+margin-top: 20px;
+margin-bottom: 100px;
+margin-right: 100px;
+margin-left: 80px;
+}
+
+
+img {
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius:20%;
+}

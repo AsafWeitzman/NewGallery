@@ -1,0 +1,260 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Home Page";
+}
+
+<!---->
+<link href="@Url.Content("~/Content/homeStyle.css")" rel="stylesheet" type="text/css" />
+<script src="~/Scripts/Index.js"></script>
+<!---->
+
+
+<div class="jumbotron">
+    <h3>COVID-19: SHIPPING UPDATE </h3>
+    <p><a class="btn btn-primary btn-lg" @Html.ActionLink("Covid-19 update", "Covid", "Home") &raquo; </a></p>
+
+
+</div>
+
+<div class="container">
+    <h1>Top paintings:</h1>
+
+    <!---->
+
+    <div class="container-fluid" data-aos="fade" data-aos-delay="500">
+        <div class="swiper-container images-carousel">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="image-wrap">
+                        <div class="image-info">
+
+                            <!--<a href="~/single.html" class="btn btn-outline-white py-2 px-4">More Photos</a>-->
+                        </div>
+                        <img src="~/images/PHOTO5.jpg" alt="Image">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="image-wrap">
+                        <div class="image-info">
+
+
+                        </div>
+                        <img src="~/images/PHOTO6.jpg" alt="Image">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="image-wrap">
+                        <div class="image-info">
+                        </div>
+                        <img src="~/images/PHOTO2.jpg" alt="Image">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="image-wrap">
+                        <div class="image-info">
+
+
+                        </div>
+                        <img src="~/images/PHOTO11.jpg" alt="Image">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="image-wrap">
+                        <div class="image-info">
+
+                        </div>
+                        <img src="~/images/PHOTO1.jpg" alt="Image">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="image-wrap">
+                        <div class="image-info">
+                        </div>
+                        <img src="~/images/PHOTO4.jpg" alt="Image">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="image-wrap">
+                        <div class="image-info">
+                        </div>
+                        <img src="~/images/PHOTO8.jpg" alt="Image">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="image-wrap">
+                        <div class="image-info">
+                        </div>
+                        <img src="~/images/PHOTO12.jpg" alt="Image">
+                    </div>
+                </div>
+
+
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <h2>Artistic advice  &#x1F5E8;</h2>
+        <p class="round2">
+            How to choose photos for the home or office? How do you find your hands and feet in all this endless selection of painters and paintings? I like the abstract, but will they embarrass me in the living room? Should the colors match the colors I have in the house?
+            This is where Hamutal comes into the picture. Years of experience behind her, and a touch. She calls her work "Touching the Soul."
+            Consult which photos to choose, where to hang and many more tips. Slowly all the questions are resolved and the result is delightful.
+            Finally, Shai arrives and hangs the pictures at home.
+            To arrange a personal meeting with Asaf, you can call the gallery: 039646495 or contact us
+        </p>
+
+    </section>
+
+    <!-- VIEDO -->
+    <h1 class="my-4">
+        Drawing process:
+        <small>Keren Rotenberg</small>
+    </h1>
+
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card h-100">
+                <video width="400" autoplay loop muted>
+                    <source src="~/images/1.mp4" type="video/mp4" />
+                    Your browser does not support HTML5 video.
+                </video>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card h-100">
+                <video width="400" autoplay loop muted>
+                    <source src="~/images/2.mp4" type="video/mp4" />
+                    Your browser does not support HTML5 video.
+                </video>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card h-100">
+                <video width="400" autoplay loop muted>
+                    <source src="~/images/4.mp4" type="video/mp4" />
+                    Your browser does not support HTML5 video.
+                </video>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card h-100">
+                <video width="400" autoplay loop muted>
+                    <source src="~/images/3.mp4" type="video/mp4" />
+                    Your browser does not support HTML5 video.
+                </video>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<script>
+    window.twttr = (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+            t = window.twttr || {};
+        if (d.getElementById(id)) return t;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+
+        t._e = [];
+        t.ready = function (f) {
+            t._e.push(f);
+        };
+
+        return t;
+    }(document, "script", "twitter-wjs"));</script>
+Our top leading paints who published on twitter:
+<!--"https://twitter.com/newgallery3"-->
+<a class="twitter-timeline"
+   href="https://twitter.com/newgallery3"
+   data-chrome="nofooter noborders">
+
+
+</a>
+
+
+
+<!--
+
+<div class="jumbotron">
+    <div class="container">
+        <form action="/action_page.php">
+            <div class="row">
+                <h2 style="text-align:center">Login with Social Media or Manually</h2>
+                <div class="vl">
+                    <span class="vl-innertext">or</span>
+                </div>
+
+                <div class="col">
+                    <a href="#" class="fb btn">
+                        <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+                    </a>
+                    <a href="#" class="twitter btn">
+                        <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+                    </a>
+                    <a href="#" class="google btn">
+                        <i class="fa fa-google fa-fw">
+                        </i> Login with Google+
+                    </a>
+                </div>
+
+                <div class="col">
+                    <div class="hide-md-lg">
+                        <p>Or sign in manually:</p>
+                    </div>
+
+                    <input type="text" name="username" placeholder="Username" id="Index_login_manual_username" required>
+                    <input type="password" name="password" placeholder="Password" id="Index_login_manual_passwor" required>
+                    <input type="submit" value="Login" onclick="login()">
+
+                </div>
+
+            </div>
+        </form>
+    </div>
+
+
+    <div class="bottom-container">
+        <div class="row">
+            <div class="col">
+                <a href="#" style="color:white" class="btn">Sign up</a>
+            </div>
+            <div class="col">
+                <a href="#" style="color:white" class="btn">Forgot password?</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Getting started</h2>
+            <p>
+                ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
+                enables a clean separation of concerns and gives you full control over markup
+                for enjoyable, agile development.
+            </p>
+            <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Get more libraries</h2>
+            <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
+            <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Web Hosting</h2>
+            <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+            <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+        </div>
+    </div>
+
+        -->

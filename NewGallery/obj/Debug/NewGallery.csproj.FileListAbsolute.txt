@@ -1,0 +1,792 @@
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\NewGallery.dll.config
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\NewGallery.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\NewGallery.pdb
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\csc.exe
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\csc.exe.config
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\csc.rsp
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\csi.exe
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\csi.exe.config
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\csi.rsp
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\System.AppContext.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\System.Console.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\System.IO.Compression.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\System.Net.Http.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\System.Net.Sockets.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\System.ValueTuple.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\System.Xml.XPath.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\vbc.exe
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\vbc.exe.config
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\vbc.rsp
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\VBCSCompiler.exe
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\Antlr3.Runtime.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\EntityFramework.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\EntityFramework.SqlServer.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\Newtonsoft.Json.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\System.Web.Helpers.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\System.Web.Mvc.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\System.Web.Optimization.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\System.Web.Razor.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\System.Web.WebPages.Deployment.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\System.Web.WebPages.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\System.Web.WebPages.Razor.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\WebGrease.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\EntityFramework.xml
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\EntityFramework.SqlServer.xml
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\System.Web.Helpers.xml
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\System.Web.Mvc.xml
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\System.Web.Optimization.xml
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\System.Web.Razor.xml
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\System.Web.WebPages.xml
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\System.Web.WebPages.Deployment.xml
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\System.Web.WebPages.Razor.xml
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\Newtonsoft.Json.xml
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\Antlr3.Runtime.pdb
+C:\Users\asafw\source\repos\NewGallery\NewGallery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asafw\source\repos\NewGallery\NewGallery\obj\Debug\NewGallery.csprojAssemblyReference.cache
+C:\Users\asafw\source\repos\NewGallery\NewGallery\obj\Debug\NewGallery.csproj.CoreCompileInputs.cache
+C:\Users\asafw\source\repos\NewGallery\NewGallery\obj\Debug\NewGallery.csproj.CopyComplete
+C:\Users\asafw\source\repos\NewGallery\NewGallery\obj\Debug\NewGallery.dll
+C:\Users\asafw\source\repos\NewGallery\NewGallery\obj\Debug\NewGallery.pdb
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\NewGallery.dll.config
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\NewGallery.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\NewGallery.pdb
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\csc.exe
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\csc.exe.config
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\csc.rsp
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\csi.exe
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\csi.exe.config
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\csi.rsp
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\System.AppContext.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\System.Console.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\System.IO.Compression.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\System.Net.Http.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\System.Net.Sockets.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\System.ValueTuple.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\System.Xml.XPath.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\vbc.exe
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\vbc.exe.config
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\vbc.rsp
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\VBCSCompiler.exe
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\Antlr3.Runtime.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\EntityFramework.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\EntityFramework.SqlServer.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\Newtonsoft.Json.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\System.Web.Helpers.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\System.Web.Mvc.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\System.Web.Optimization.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\System.Web.Razor.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\System.Web.WebPages.Deployment.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\System.Web.WebPages.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\System.Web.WebPages.Razor.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\WebGrease.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\EntityFramework.xml
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\EntityFramework.SqlServer.xml
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\System.Web.Helpers.xml
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\System.Web.Mvc.xml
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\System.Web.Optimization.xml
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\System.Web.Razor.xml
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\System.Web.WebPages.xml
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\System.Web.WebPages.Deployment.xml
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\System.Web.WebPages.Razor.xml
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\Newtonsoft.Json.xml
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\Antlr3.Runtime.pdb
+C:\Users\abadi\Desktop\NewGallery\NewGallery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\abadi\Desktop\NewGallery\NewGallery\obj\Debug\NewGallery.csprojAssemblyReference.cache
+C:\Users\abadi\Desktop\NewGallery\NewGallery\obj\Debug\NewGallery.csproj.CopyComplete
+C:\Users\abadi\Desktop\NewGallery\NewGallery\obj\Debug\NewGallery.dll
+C:\Users\abadi\Desktop\NewGallery\NewGallery\obj\Debug\NewGallery.pdb
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\NewGallery.dll.config
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\NewGallery.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\NewGallery.pdb
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\csc.exe
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\csc.exe.config
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\csc.rsp
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\csi.exe
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\csi.exe.config
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\csi.rsp
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\System.AppContext.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\System.Console.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\System.IO.Compression.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\System.Net.Http.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\System.ValueTuple.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\vbc.exe
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\vbc.exe.config
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\vbc.rsp
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\VBCSCompiler.exe
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\Antlr3.Runtime.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\EntityFramework.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\EntityFramework.SqlServer.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\Newtonsoft.Json.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\System.Web.Helpers.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\System.Web.Mvc.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\System.Web.Optimization.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\System.Web.Razor.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\System.Web.WebPages.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\System.Web.WebPages.Razor.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\WebGrease.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\EntityFramework.xml
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\EntityFramework.SqlServer.xml
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\System.Web.Helpers.xml
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\System.Web.Mvc.xml
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\System.Web.Optimization.xml
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\System.Web.Razor.xml
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\System.Web.WebPages.xml
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\System.Web.WebPages.Razor.xml
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\Newtonsoft.Json.xml
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\Antlr3.Runtime.pdb
+C:\Users\Keren\source\repos\NewGallery\NewGallery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Keren\source\repos\NewGallery\NewGallery\obj\Debug\NewGallery.csproj.CoreCompileInputs.cache
+C:\Users\Keren\source\repos\NewGallery\NewGallery\obj\Debug\NewGallery.csproj.CopyComplete
+C:\Users\Keren\source\repos\NewGallery\NewGallery\obj\Debug\NewGallery.dll
+C:\Users\Keren\source\repos\NewGallery\NewGallery\obj\Debug\NewGallery.pdb
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\NewGallery.dll.config
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\NewGallery.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\NewGallery.pdb
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\csc.exe
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\csc.exe.config
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\csc.rsp
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\csi.exe
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\csi.exe.config
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\csi.rsp
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\System.AppContext.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\System.Console.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\System.IO.Compression.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\System.Net.Http.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\System.Net.Sockets.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\System.ValueTuple.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\System.Xml.XPath.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\vbc.exe
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\vbc.exe.config
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\vbc.rsp
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\VBCSCompiler.exe
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\Antlr3.Runtime.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\EntityFramework.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\EntityFramework.SqlServer.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\Newtonsoft.Json.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\System.Web.Helpers.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\System.Web.Mvc.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\System.Web.Optimization.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\System.Web.Razor.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\System.Web.WebPages.Deployment.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\System.Web.WebPages.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\System.Web.WebPages.Razor.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\WebGrease.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\EntityFramework.xml
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\EntityFramework.SqlServer.xml
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\System.Web.Helpers.xml
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\System.Web.Mvc.xml
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\System.Web.Optimization.xml
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\System.Web.Razor.xml
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\System.Web.WebPages.xml
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\System.Web.WebPages.Deployment.xml
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\System.Web.WebPages.Razor.xml
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\Newtonsoft.Json.xml
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\Antlr3.Runtime.pdb
+C:\Users\abadi\source\repos\NewGallery\NewGallery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\abadi\source\repos\NewGallery\NewGallery\obj\Debug\NewGallery.csprojAssemblyReference.cache
+C:\Users\abadi\source\repos\NewGallery\NewGallery\obj\Debug\NewGallery.csproj.CopyComplete
+C:\Users\abadi\source\repos\NewGallery\NewGallery\obj\Debug\NewGallery.dll
+C:\Users\abadi\source\repos\NewGallery\NewGallery\obj\Debug\NewGallery.pdb
+C:\Users\abadi\source\repos\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.InitialCreate.resources
+C:\Users\abadi\source\repos\NewGallery\NewGallery\obj\Debug\NewGallery.csproj.GenerateResource.cache
+C:\Users\abadi\source\repos\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.addcomment.resources
+C:\Users\abadi\source\repos\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.addNametitlepaints.resources
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\NewGallery.dll.config
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\NewGallery.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\NewGallery.pdb
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\csc.exe
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\csc.exe.config
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\csc.rsp
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\csi.exe
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\csi.exe.config
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\csi.rsp
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\System.AppContext.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\System.Console.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\System.IO.Compression.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\System.Net.Http.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\System.ValueTuple.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\vbc.exe
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\vbc.exe.config
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\vbc.rsp
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\VBCSCompiler.exe
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\Antlr3.Runtime.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\EntityFramework.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\EntityFramework.SqlServer.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\Newtonsoft.Json.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\System.Web.Helpers.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\System.Web.Mvc.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\System.Web.Optimization.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\System.Web.Razor.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\System.Web.WebPages.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\System.Web.WebPages.Razor.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\WebGrease.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\EntityFramework.xml
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\EntityFramework.SqlServer.xml
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\System.Web.Helpers.xml
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\System.Web.Mvc.xml
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\System.Web.Optimization.xml
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\System.Web.Razor.xml
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\System.Web.WebPages.xml
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\System.Web.WebPages.Razor.xml
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\Newtonsoft.Json.xml
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\Antlr3.Runtime.pdb
+C:\Users\Michal\source\repos\NewGallery\NewGallery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Michal\source\repos\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.InitialCreate.resources
+C:\Users\Michal\source\repos\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.addcomment.resources
+C:\Users\Michal\source\repos\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.addNametitlepaints.resources
+C:\Users\Michal\source\repos\NewGallery\NewGallery\obj\Debug\NewGallery.csproj.GenerateResource.cache
+C:\Users\Michal\source\repos\NewGallery\NewGallery\obj\Debug\NewGallery.csproj.CoreCompileInputs.cache
+C:\Users\Michal\source\repos\NewGallery\NewGallery\obj\Debug\NewGallery.csproj.CopyComplete
+C:\Users\Michal\source\repos\NewGallery\NewGallery\obj\Debug\NewGallery.dll
+C:\Users\Michal\source\repos\NewGallery\NewGallery\obj\Debug\NewGallery.pdb
+C:\Users\abadi\source\repos\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.addartname.resources
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\NewGallery.dll.config
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\NewGallery.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\NewGallery.pdb
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\csc.exe
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\csc.exe.config
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\csc.rsp
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\csi.exe
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\csi.exe.config
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\csi.rsp
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\System.AppContext.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\System.Console.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\System.IO.Compression.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\System.Net.Http.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\System.Net.Sockets.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\System.ValueTuple.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\System.Xml.XPath.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\vbc.exe
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\vbc.exe.config
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\vbc.rsp
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\VBCSCompiler.exe
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\Antlr3.Runtime.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\EntityFramework.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\EntityFramework.SqlServer.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\Newtonsoft.Json.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\System.Web.Helpers.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\System.Web.Mvc.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\System.Web.Optimization.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\System.Web.Razor.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\System.Web.WebPages.Deployment.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\System.Web.WebPages.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\System.Web.WebPages.Razor.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\WebGrease.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\EntityFramework.xml
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\EntityFramework.SqlServer.xml
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\System.Web.Helpers.xml
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\System.Web.Mvc.xml
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\System.Web.Optimization.xml
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\System.Web.Razor.xml
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\System.Web.WebPages.xml
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\System.Web.WebPages.Deployment.xml
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\System.Web.WebPages.Razor.xml
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\Newtonsoft.Json.xml
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\Antlr3.Runtime.pdb
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.InitialCreate.resources
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.addcomment.resources
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.addNametitlepaints.resources
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.addartname.resources
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\obj\Debug\NewGallery.csproj.GenerateResource.cache
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\obj\Debug\NewGallery.csproj.CoreCompileInputs.cache
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\obj\Debug\NewGallery.csproj.CopyComplete
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\obj\Debug\NewGallery.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\obj\Debug\NewGallery.pdb
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.addaccountmodwl.resources
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.adde_num_type.resources
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\obj\Debug\NewGallery.csprojAssemblyReference.cache
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\6.8.20\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.pasword.resources
+C:\Users\Keren\source\repos\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.InitialCreate.resources
+C:\Users\Keren\source\repos\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.addcomment.resources
+C:\Users\Keren\source\repos\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.addNametitlepaints.resources
+C:\Users\Keren\source\repos\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.addartname.resources
+C:\Users\Keren\source\repos\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.addaccountmodwl.resources
+C:\Users\Keren\source\repos\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.adde_num_type.resources
+C:\Users\Keren\source\repos\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.pasword.resources
+C:\Users\Keren\source\repos\NewGallery\NewGallery\obj\Debug\NewGallery.csproj.GenerateResource.cache
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\NewGallery.dll.config
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\NewGallery.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\NewGallery.pdb
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\csc.exe
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\csc.exe.config
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\csc.rsp
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\csi.exe
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\csi.exe.config
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\csi.rsp
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\System.AppContext.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\System.Console.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\System.IO.Compression.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\System.Net.Http.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\System.Net.Sockets.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\System.ValueTuple.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\System.Xml.XPath.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\vbc.exe
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\vbc.exe.config
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\vbc.rsp
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\VBCSCompiler.exe
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\Antlr3.Runtime.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\EntityFramework.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\EntityFramework.SqlServer.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\Newtonsoft.Json.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\System.Web.Helpers.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\System.Web.Mvc.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\System.Web.Optimization.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\System.Web.Razor.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\System.Web.WebPages.Deployment.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\System.Web.WebPages.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\System.Web.WebPages.Razor.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\WebGrease.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\EntityFramework.xml
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\EntityFramework.SqlServer.xml
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\System.Web.Helpers.xml
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\System.Web.Mvc.xml
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\System.Web.Optimization.xml
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\System.Web.Razor.xml
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\System.Web.WebPages.xml
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\System.Web.WebPages.Deployment.xml
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\System.Web.WebPages.Razor.xml
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\Newtonsoft.Json.xml
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\Antlr3.Runtime.pdb
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\obj\Debug\NewGallery.csprojAssemblyReference.cache
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.InitialCreate.resources
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.addcomment.resources
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.addNametitlepaints.resources
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.addartname.resources
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.addaccountmodwl.resources
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.adde_num_type.resources
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.pasword.resources
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\obj\Debug\NewGallery.csproj.GenerateResource.cache
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\obj\Debug\NewGallery.csproj.CoreCompileInputs.cache
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\obj\Debug\NewGallery.csproj.CopyComplete
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\obj\Debug\NewGallery.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\7.8.20מיכל2עדכני\NewGallery\NewGallery\obj\Debug\NewGallery.pdb
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\NewGallery.dll.config
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\NewGallery.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\NewGallery.pdb
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\csc.exe
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\csc.exe.config
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\csc.rsp
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\csi.exe
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\csi.exe.config
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\csi.rsp
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\System.AppContext.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\System.Console.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\System.IO.Compression.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\System.Net.Http.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\System.ValueTuple.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\vbc.exe
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\vbc.exe.config
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\vbc.rsp
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\VBCSCompiler.exe
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\Antlr3.Runtime.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\EntityFramework.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\EntityFramework.SqlServer.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\Newtonsoft.Json.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\System.Web.Helpers.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\System.Web.Mvc.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\System.Web.Optimization.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\System.Web.Razor.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\System.Web.WebPages.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\System.Web.WebPages.Razor.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\WebGrease.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\EntityFramework.xml
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\EntityFramework.SqlServer.xml
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\System.Web.Helpers.xml
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\System.Web.Mvc.xml
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\System.Web.Optimization.xml
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\System.Web.Razor.xml
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\System.Web.WebPages.xml
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\System.Web.WebPages.Razor.xml
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\Newtonsoft.Json.xml
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\Antlr3.Runtime.pdb
+C:\Users\Keren\source\app\NewGallery\NewGallery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Keren\source\app\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.InitialCreate.resources
+C:\Users\Keren\source\app\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.addcomment.resources
+C:\Users\Keren\source\app\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.addNametitlepaints.resources
+C:\Users\Keren\source\app\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.addartname.resources
+C:\Users\Keren\source\app\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.addaccountmodwl.resources
+C:\Users\Keren\source\app\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.adde_num_type.resources
+C:\Users\Keren\source\app\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.pasword.resources
+C:\Users\Keren\source\app\NewGallery\NewGallery\obj\Debug\NewGallery.csproj.GenerateResource.cache
+C:\Users\Keren\source\app\NewGallery\NewGallery\obj\Debug\NewGallery.csproj.CoreCompileInputs.cache
+C:\Users\Keren\source\app\NewGallery\NewGallery\obj\Debug\NewGallery.csproj.CopyComplete
+C:\Users\Keren\source\app\NewGallery\NewGallery\obj\Debug\NewGallery.dll
+C:\Users\Keren\source\app\NewGallery\NewGallery\obj\Debug\NewGallery.pdb
+C:\Users\Keren\source\app\NewGallery\NewGallery\obj\Debug\NewGallery.csprojAssemblyReference.cache
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\NewGallery.dll.config
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\NewGallery.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\NewGallery.pdb
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\csc.exe
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\csc.exe.config
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\csc.rsp
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\csi.exe
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\csi.exe.config
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\csi.rsp
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\System.AppContext.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\System.Console.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\System.IO.Compression.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\System.Net.Http.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\System.Net.Sockets.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\System.ValueTuple.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\System.Xml.XPath.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\vbc.exe
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\vbc.exe.config
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\vbc.rsp
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\VBCSCompiler.exe
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\Antlr3.Runtime.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\EntityFramework.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\EntityFramework.SqlServer.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\Newtonsoft.Json.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\System.Web.Helpers.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\System.Web.Mvc.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\System.Web.Optimization.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\System.Web.Razor.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\System.Web.WebPages.Deployment.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\System.Web.WebPages.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\System.Web.WebPages.Razor.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\WebGrease.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\EntityFramework.xml
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\EntityFramework.SqlServer.xml
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\System.Web.Helpers.xml
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\System.Web.Mvc.xml
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\System.Web.Optimization.xml
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\System.Web.Razor.xml
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\System.Web.WebPages.xml
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\System.Web.WebPages.Deployment.xml
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\System.Web.WebPages.Razor.xml
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\Newtonsoft.Json.xml
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\Antlr3.Runtime.pdb
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\obj\Debug\NewGallery.csprojAssemblyReference.cache
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.InitialCreate.resources
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.addcomment.resources
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.addNametitlepaints.resources
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.addartname.resources
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.addaccountmodwl.resources
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.adde_num_type.resources
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\obj\Debug\NewGallery.Migrations.pasword.resources
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\obj\Debug\NewGallery.csproj.GenerateResource.cache
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\obj\Debug\NewGallery.csproj.CoreCompileInputs.cache
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\obj\Debug\NewGallery.csproj.CopyComplete
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\obj\Debug\NewGallery.dll
+C:\Users\asafw\Documents\מדעי המחשב\שנה ב\סמסטר ב\פיתוח אפליקציות אינטרנטיות\מיכל8.8.20עדכני\NewGallery\NewGallery\obj\Debug\NewGallery.pdb
