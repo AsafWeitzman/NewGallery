@@ -1,0 +1,122 @@
+﻿@model NewGallery.Models.Paint
+
+@{
+    Layout = "~/Views/Shared/_LayoutUserMode.cshtml";
+
+    ViewBag.Title = "Details";
+    var id = (String)("" + @ViewData["chosens"] + "");
+    String a = id.ToString();
+
+}
+<h2>Details</h2>
+
+<div>
+    <h4>Paint</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Artist.ArtistName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Artist.ArtistName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Paintname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Paintname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreateDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreateDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Size)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Size)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Type)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Type)
+        </dd>
+
+    </dl>
+
+</div>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Comments.First().Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Comments.First().Body)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Comments.First().SentBy)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Comments.First().Posted)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model.Comments)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Body)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SentBy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Posted)
+            </td>
+
+
+        </tr>
+    }
+
+</table>
+
+<p>
+    @Html.ActionLink("Add a new Comment", "Create", "Comments")|
+    @Html.ActionLink("Back to List", "Index")
+</p>
+<script>
+
+    var str = @Html.Raw(Json.Encode((String)ViewData["chosens"]));
+
+    if (str!=null) {
+        alert("you shuold watch more of "+str+"'s arts");
+    }
+
+
+
+</script>

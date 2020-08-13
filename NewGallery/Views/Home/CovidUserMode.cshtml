@@ -1,0 +1,51 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutUserMode.cshtml";
+
+    ViewBag.Title = "Covid";
+}
+
+<link href="@Url.Content("~/Content/covid.css")" rel="stylesheet" type="text/css" />
+
+
+<header>
+    <canvas id="canvas" style="border:2px solid black; background-color:black;">
+        sorry,your browser does not support canvas tag.
+    </canvas>
+    <script src="~/Scripts/canvas.js"></script>
+</header>
+
+
+
+
+<div class="row">
+
+    <div class="column left">
+        <div class="image-container">
+            <img src="~/images/PHOTO1.jpg" alt="" />
+            <img class="transition-image" src="~/images/PHOTO11.jpg" alt="" />
+        </div>
+
+    </div>
+
+    <div class="column right">
+
+        <div class=" container">
+            <p>Our top priority is the health and safety of our employees and customers, so we completely redesigned our production and fulfillment center to comply with state recommended social distancing and PPE guidelines.</p>
+            <p><strong>What does this mean for you?</strong></p>
+            <ul>
+                <li><strong> Processing times may be delayed.</strong> Generally processing times are within 3-5 business days</li>
+                although currently those times vary due to the issues relating to COVID-19 and government orders and the impact to our business.
+                Processing times may also be extended during holidays, launches/re-stocks, limited edition releases and promotions.
+                <li> We will notify you as soon as your order ships or if we foresee any issues with fulfilling your order.</li>
+                <li>You can cancel for a full refund. We have updated our return policy so you can cancel any unshipped order at any time for a full refund.</li>
+            </ul>
+            <p>We appreciate your patience and understanding as we work through this together.</p>
+            <p>Thank you so much for your support!</p>
+            <p>Love,<br>M.A.N.S GALLERY</br></p>
+
+
+        </div>
+
+    </div>
+
+</div>

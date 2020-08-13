@@ -1,0 +1,55 @@
+﻿@model IEnumerable<NewGallery.Models.Customer>
+
+@{
+    ViewBag.Title = "Search";
+}
+
+<h2>Search result</h2>
+
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CustName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Gender)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PhoneNum)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Gender)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNum)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.CustomerID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.CustomerID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.CustomerID })
+            </td>
+        </tr>
+    }
+
+    <div>
+        @Html.ActionLink("Back to List", "Index")
+    </div>
+
+</table>

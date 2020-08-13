@@ -1,0 +1,95 @@
+﻿@model NewGallery.Models.Artist
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Artist</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ArtistName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ArtistName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FavoriteStyle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FavoriteStyle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Rate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rate)
+        </dd>
+
+    </dl>
+</div>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Paints.First().Artist.ArtistName)
+
+        </th>
+        <th>
+            @Html.ActionLink("Paint Name", "Index", new { sortOrder = ViewBag.NameSortParm })
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Paints.First().CreateDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Paints.First().Size)
+        </th>
+        <th>
+            @Html.ActionLink("Price", "Index", new { sortOrder = ViewBag.PriceSortParm })
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Paints.First().Type)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model.Paints)
+    {
+        <tr>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.Paintname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreateDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Size)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Type)
+            </td>
+            </tr>
+    }
+            </table>
+            <p>
+                @Html.ActionLink("Back to List", "Index")
+            </p>

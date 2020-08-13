@@ -1,0 +1,85 @@
+﻿img {
+    border-radius: 50%;
+}
+
+.image-container {
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+
+ .image-container img {
+        height: 100%;
+        width: 100%;
+    }
+
+
+.transition-image {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+    .transition-image:hover {
+        opacity: 1;
+    }
+
+p {
+    display: block;
+}
+
+header h3 {
+    height: 20vh;
+    max-height: 400px;
+    background-color: black;
+    background-position: center;
+    text-align: center;
+    font-size: xx-large;
+    padding-bottom: 10%;
+    text-decoration-color: white;
+    text-emphasis-color: white;
+}
+
+aside {
+    display:block;
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color:deeppink;
+}
+
+
+<style >
+* {
+    box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+    width: 25%;
+}
+
+.right {
+    width: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+canvas {
+    border: 2px solid black;
+}
