@@ -86,7 +86,8 @@
     </table>
     </article>
 
-<script>$("#textsearch").on("keyup", function () {
+<script>
+    $("#textsearch").on("keyup", function () {
 
           var textenter = $(this).val();
           $("table tr").each(function (res) {
@@ -100,4 +101,5 @@
                   }
               }
           });
-      });</script>
+    });
+</script>

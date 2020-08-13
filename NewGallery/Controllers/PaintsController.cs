@@ -11,8 +11,6 @@ using NewGallery.Models;
 
 namespace NewGallery.Controllers
 {
-
-
     public class PaintsController : Controller
     {
         public static string paint_name;
@@ -47,7 +45,6 @@ namespace NewGallery.Controllers
 
             }
 
-
             switch (sortOrder)
             {
                 case "name_desc":
@@ -65,7 +62,7 @@ namespace NewGallery.Controllers
             return View(paints.ToList());
         }
 
-        public ActionResult IndexUserMode()//string sortOrder
+        public ActionResult IndexUserMode()
         {
             ViewBag.NameSortParm = String.IsNullOrEmpty(sortOrder_s) ? "name_desc" : "";
             ViewBag.PriceSortParm = sortOrder_s == "Price" ? "Price" : "price_desc";
@@ -349,7 +346,7 @@ namespace NewGallery.Controllers
 
         }*/ //not good func
 
-        //asaf func
+        //same as search but after fixing bugs
         public ActionResult Search(string paintname, string type, int? price)
         {
 
@@ -456,7 +453,6 @@ namespace NewGallery.Controllers
             }
 
         }
-        //asaf func
 
 
         private string statisticsOnCustomer(string paintName)
@@ -582,7 +578,8 @@ namespace NewGallery.Controllers
 
         }*/ //not good func
 
-        //asaf func
+        //same as SearchUserMode but after fixing bugs
+
         public ActionResult SearchUserMode()
         {
             List<Paint> Paintlist = new List<Paint>();
@@ -674,7 +671,6 @@ namespace NewGallery.Controllers
             }
 
         }
-        //asaf func
 
 
     }
