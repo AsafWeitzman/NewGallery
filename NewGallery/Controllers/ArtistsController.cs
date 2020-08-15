@@ -7,7 +7,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using NewGallery.Models;
-
+//somenote
 namespace NewGallery.Controllers
 {
     public class ArtistsController : Controller
