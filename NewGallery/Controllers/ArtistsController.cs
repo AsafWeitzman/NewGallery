@@ -201,23 +201,23 @@ namespace NewGallery.Controllers
             {
                 foreach (Artist a in db.Artists)
                 {
-                    if (a.ArtistName.Contains(name))
+                    if (a.ArtistName.ToLower().Contains(name.ToLower()))
                     {
                         Artistlist.Add(a);
                     }
                 }
-                return View(Artistlist);
+                return View("Index",Artistlist) ;
             }
             else if ((name == null || name == "")&& rate==null)
             {
                 foreach (Artist a in db.Artists)
                 {
-                    if (a.FavoriteStyle.Contains(favstyle))
+                    if (a.FavoriteStyle.ToLower().Contains(favstyle.ToLower()))
                     {
                         Artistlist.Add(a);
                     }
                 }
-                return View(Artistlist);
+                return View("Index", Artistlist);
             }
             else if ((name == null || name == "") && (favstyle == null || favstyle == ""))
             {
@@ -228,52 +228,52 @@ namespace NewGallery.Controllers
                         Artistlist.Add(a);
                     }
                 }
-                return View(Artistlist);
+                return View("Index", Artistlist);
             }
             else if (name == null || name == "")
             {
                 foreach (Artist a in db.Artists)
                 {
-                    if (a.Rate >= rate && a.FavoriteStyle.Contains(favstyle))
+                    if (a.Rate >= rate && a.FavoriteStyle.ToLower().Contains(favstyle.ToLower()))
                     {
                         Artistlist.Add(a);
                     }
                 }
-                return View(Artistlist);
+                return View("Index", Artistlist);
             }
 
             else if (favstyle == null || favstyle == "")
             {
                 foreach (Artist a in db.Artists)
                 {
-                    if (a.ArtistName.Contains(name)&& a.Rate >= rate)
+                    if (a.ArtistName.ToLower().Contains(name.ToLower())&& a.Rate >= rate)
                     {
                         Artistlist.Add(a);
                     }
                 }
-                return View(Artistlist);
+                return View("Index", Artistlist);
             }
             else if (rate==null)
             {
                 foreach (Artist a in db.Artists)
                 {
-                    if (a.FavoriteStyle.Contains(favstyle)&& a.ArtistName.Contains(name))
+                    if (a.FavoriteStyle.ToLower().Contains(favstyle)&& a.ArtistName.ToLower().Contains(name.ToLower()))
                     {
                         Artistlist.Add(a);
                     }
                 }
-                return View(Artistlist);
+                return View("Index", Artistlist);
             }
             else
             {
                 foreach (Artist a in db.Artists)
                 {
-                    if (a.FavoriteStyle.Contains(favstyle) && a.ArtistName.Contains(name)&&a.Rate>=rate)
+                    if (a.FavoriteStyle.ToLower().Contains(favstyle.ToLower()) && a.ArtistName.ToLower().Contains(name.ToLower()) &&a.Rate>=rate)
                     {
                         Artistlist.Add(a);
                     }
                 }
-                return View(Artistlist);
+                return View("Index", Artistlist);
             }
 
         }
@@ -293,23 +293,23 @@ namespace NewGallery.Controllers
             {
                 foreach (Artist a in db.Artists)
                 {
-                    if (a.ArtistName.Contains(artist_name))
+                    if (a.ArtistName.ToLower().Contains(artist_name.ToLower()))
                     {
                         Artistlist.Add(a);
                     }
                 }
-                return View(Artistlist);
+                return View("IndexUserMode", Artistlist);
             }
             else if ((artist_name == null || artist_name == "") && rate_s == 0)
             {
                 foreach (Artist a in db.Artists)
                 {
-                    if (a.FavoriteStyle.Contains(fave_style))
+                    if (a.FavoriteStyle.ToLower().Contains(fave_style.ToLower()))
                     {
                         Artistlist.Add(a);
                     }
                 }
-                return View(Artistlist);
+                return View("IndexUserMode", Artistlist);
             }
             else if ((artist_name == null || artist_name == "") && (fave_style == null || fave_style == ""))
             {
@@ -320,52 +320,52 @@ namespace NewGallery.Controllers
                         Artistlist.Add(a);
                     }
                 }
-                return View(Artistlist);
+                return View("IndexUserMode", Artistlist);
             }
             else if (artist_name == null || artist_name == "")
             {
                 foreach (Artist a in db.Artists)
                 {
-                    if (a.Rate >= rate_s && a.FavoriteStyle.Contains(fave_style))
+                    if (a.Rate >= rate_s && a.FavoriteStyle.ToLower().Contains(fave_style.ToLower()))
                     {
                         Artistlist.Add(a);
                     }
                 }
-                return View(Artistlist);
+                return View("IndexUserMode", Artistlist);
             }
 
             else if (fave_style == null || fave_style == "")
             {
                 foreach (Artist a in db.Artists)
                 {
-                    if (a.ArtistName.Contains(artist_name) && a.Rate >= rate_s)
+                    if (a.ArtistName.ToLower().Contains(artist_name.ToLower()) && a.Rate >= rate_s)
                     {
                         Artistlist.Add(a);
                     }
                 }
-                return View(Artistlist);
+                return View("IndexUserMode", Artistlist);
             }
             else if (rate_s == 0)
             {
                 foreach (Artist a in db.Artists)
                 {
-                    if (a.FavoriteStyle.Contains(fave_style) && a.ArtistName.Contains(artist_name))
+                    if (a.FavoriteStyle.ToLower().Contains(fave_style.ToLower()) && a.ArtistName.ToLower().Contains(artist_name.ToLower()))
                     {
                         Artistlist.Add(a);
                     }
                 }
-                return View(Artistlist);
+                return View("IndexUserMode", Artistlist);
             }
             else
             {
                 foreach (Artist a in db.Artists)
                 {
-                    if (a.FavoriteStyle.Contains(fave_style) && a.ArtistName.Contains(artist_name) && a.Rate >= rate_s)
+                    if (a.FavoriteStyle.ToLower().Contains(fave_style.ToLower()) && a.ArtistName.ToLower().Contains(artist_name.ToLower()) && a.Rate >= rate_s)
                     {
                         Artistlist.Add(a);
                     }
                 }
-                return View(Artistlist);
+                return View("IndexUserMode", Artistlist);
             }
 
         }
