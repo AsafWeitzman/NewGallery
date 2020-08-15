@@ -13,26 +13,26 @@
 
 
 
-        <form action="/Artists/Search" method="get">
-            Enter Full name: to search<br>
-            <input type="text" name="name">
-       
-            <br>
-            <br>
-            Enter Favorite Style to search:<br>
-            <input type="text" name="favstyle">
-         
-            <br>
-            <br>
-            Enter Rate to serch:<br>
-            <input type="text" name="rate">
-          
-            <br>
-            <br>
-            <br /><br />
-            <input type="submit" value="Search">
+<form action="/Artists/Search" method="get">
+    Enter Full name: to search<br>
+    <input type="text" name="name">
 
-        </form>
+    <br>
+    <br>
+    Enter Favorite Style to search:<br>
+    <input type="text" name="favstyle">
+
+    <br>
+    <br>
+    Enter Rate to serch:<br>
+    <input type="text" name="rate">
+
+    <br>
+    <br>
+    <br /><br />
+    <input type="submit" value="Search">
+
+</form>
 
 
 <article class="container">
@@ -84,22 +84,22 @@
         }
 
     </table>
-    </article>
-
+</article>
+<script src="~/js/jquery-3.3.1.min.js"></script>
 <script>
     $("#textsearch").on("keyup", function () {
 
-          var textenter = $(this).val();
-          $("table tr").each(function (res) {
-              if (res !== 0) {
-                  var id = $(this).find("td:nth-child(1)").text();
-                  if (id.indexOf(textenter) !== 0 && id.toLowerCase().indexOf(textenter.toLowerCase()) < 0) {
-                      $(this).hide();
-                  }
-                  else {
-                      $(this).show();
-                  }
-              }
-          });
+        var textenter = $(this).val();
+        $("table tr").each(function (res) {
+            if (res !== 0) {
+                var id = $(this).find("td:nth-child(1)").text();
+                if (id.indexOf(textenter) !== 0 && id.toLowerCase().indexOf(textenter.toLowerCase()) < 0) {
+                    $(this).hide();
+                }
+                else {
+                    $(this).show();
+                }
+            }
+        });
     });
 </script>
