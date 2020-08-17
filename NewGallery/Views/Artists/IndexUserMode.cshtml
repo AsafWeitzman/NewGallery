@@ -5,7 +5,11 @@
     ViewBag.Title = "Index";
 }
 <link href="@Url.Content("~/Content/Customer.css")" rel="stylesheet" type="text/css" />
-
+<style>
+    #more {
+        display: none;
+    }
+</style>
 <h2>Artist</h2>
 
 <!--
@@ -15,31 +19,30 @@
 -->
 <!--User cant create artist-->
 
+<button onclick="myFunction()" id="myBtn">Advenced Search</button>
 
 <form action="/Artists/Search" method="get">
-    Enter Full name: to search<br>
-    <input type="text" name="name">
-    <input type="submit" value="Search">
-    <br>
-    <br>
-    Enter Favorite Style to search:<br>
-    <input type="text" name="favstyle">
-    <input type="submit" value="Search">
-    <br>
-    <br>
-    Enter Rate to serch:<br>
-    <input type="text" name="rate">
-    <input type="submit" value="Search">
-    <br>
-    <br>
-    <br /><br />
+    <span id="more">
+        Enter Full name: to search<br>
+        <input type="text" name="name">
 
+        <br>
+        <br>
+        Enter Favorite Style to search:<br>
+        <input type="text" name="favstyle">
+
+        <br>
+        <br>
+        Enter Rate to serch:<br>
+        <input type="text" name="rate">
+
+        <br>
+        <br>
+        <br /><br />
+        <input type="submit" value="Search">
+    </span>
 </form>
-<p>
 
-    <input type="text" id="textsearch" placeholder="For quick name filter...">
-
-</p>
 <article class="container">
     <table class="table">
         <tr>
@@ -57,6 +60,12 @@
             </th>
             <th></th>
         </tr>
+
+        <p>
+
+            <input type="text" id="textsearch" placeholder="For quick name filter...">
+
+        </p>
 
         @foreach (var item in Model)
         {
@@ -100,4 +109,26 @@
                 }
             }
         });
-    });</script>
+    });
+</script>
+
+<script>
+    function myFunction() {
+
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+
+        if (moreText.style.display === "inline") {
+            btnText.innerHTML = "Advenced Search";
+            moreText.style.display = "none";
+        }
+        else {
+
+            btnText.innerHTML = "Hide Advenced search";
+            moreText.style.display = "inline";
+        }
+    }
+
+
+
+</script>
