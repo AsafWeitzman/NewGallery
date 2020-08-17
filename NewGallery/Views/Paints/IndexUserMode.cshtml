@@ -5,7 +5,11 @@
     ViewBag.Title = "Index";
 }
 <link href="@Url.Content("~/Content/Customer.css")" rel="stylesheet" type="text/css" />
-
+<style>
+    #more {
+        display: none;
+    }
+</style>
 <h2>Paints</h2>
 
 <!--
@@ -15,24 +19,30 @@
     -->
 <!--user cant create paints-->
 
+
+<button onclick="myFunction()" id="myBtn">Advenced Search</button>
+
 <form action="/Paints/Search" method="get">
-    Enter Paint name to search<br>
-    <input type="text" name="paintname">
+    <span id="more">
 
-    <br>
-    <br>
-    Enter price to search:<br>
-    <input type="text" name="price">
+        Enter Paint name to search<br>
+        <input type="text" name="paintname">
 
-    <br>
-    <br>
-    Enter Type to serch:<br>
-    <input type="text" name="type">
+        <br>
+        <br>
+        Enter price to search:<br>
+        <input type="text" name="price">
 
-    <br>
-    <br>
-    <br /><br />
-    <input type="submit" value="Search">
+        <br>
+        <br>
+        Enter Type to serch:<br>
+        <input type="text" name="type">
+
+        <br>
+        <br>
+        <br /><br />
+        <input type="submit" value="Search">
+    </span>
 
 </form>
 
@@ -41,11 +51,10 @@
     <table class="table">
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Artist.ArtistName)
-
+                @Html.ActionLink("Artist name", "Index", new { sortOrder = ViewBag.NameSortParm })
             </th>
             <th>
-                @Html.ActionLink("Paint Name", "Index", new { sortOrder = ViewBag.NameSortParm })
+                @Html.DisplayNameFor(model => model.Paintname)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.CreateDate)
@@ -61,7 +70,11 @@
             </th>
             <th></th>
         </tr>
+        <p>
 
+            <input type="text" id="textsearch" placeholder="For quick Paint name filter...">
+
+        </p>
         @foreach (var item in Model)
         {
             <tr>
@@ -117,7 +130,47 @@
                 <rect width=@(Model.GroupBy(p => p.artistname).ElementAt(i).Count()*100) height="19"></rect>
                 <text x=@(Model.GroupBy(p => p.artistname).ElementAt(i).Count()*160+10) y="9.5" dy=".35em" id="index_1">@Model.GroupBy(p => p.artistname).ElementAt(i).Key with count of : @(Model.GroupBy(p => p.artistname).ElementAt(i).Count())</text>
             </g>
-}
-
+        }
+        
     </svg>
 </article>
+
+
+<script src="~/js/jquery-3.3.1.min.js"></script>
+
+<script>
+    $("#textsearch").on("keyup", function () {
+
+        var textenter = $(this).val();
+        $("table tr").each(function (res) {
+            if (res !== 0) {
+                var id = $(this).find("td:nth-child(2)").text();
+                if (id.indexOf(textenter) !== 0 && id.toLowerCase().indexOf(textenter.toLowerCase()) < 0) {
+                    $(this).hide();
+                }
+                else {
+                    $(this).show();
+                }
+            }
+        });
+    });
+</script>
+
+<script>
+    function myFunction() {
+
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+
+        if (moreText.style.display === "inline") {
+            btnText.innerHTML = "Advenced Search";
+            moreText.style.display = "none";
+        }
+        else {
+
+            btnText.innerHTML = "Hide Advenced search";
+            moreText.style.display = "inline";
+        }
+    }
+
+</script>
