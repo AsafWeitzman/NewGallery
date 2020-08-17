@@ -285,7 +285,7 @@ namespace NewGallery.Controllers
 
             if ((artist_name == null || artist_name == "") && (fave_style == null || fave_style == "") && rate_s == 0)
             {
-                return RedirectToAction("Index");
+                return RedirectToAction("IndexUserMode");
             }
 
 
