@@ -15,8 +15,8 @@
     @Html.ActionLink("Create New", "Create")
 </p>
 
-
 <button onclick="myFunction()" id="myBtn">Advenced Search</button>
+
 <form action="/Artists/Search" method="get">
     <span id="more">
         Enter Full name: to search<br>
@@ -115,15 +115,14 @@
         var moreText = document.getElementById("more");
         var btnText = document.getElementById("myBtn");
 
-        if (moreText.style.display === "none") {
-            btnText.innerHTML = "Hide Advenced search";
-            moreText.style.display = "inline";
-           
-            
-        }
-        else {
+        if (moreText.style.display === "inline") {
             btnText.innerHTML = "Advenced Search";
             moreText.style.display = "none";
+        }
+        else {
+           
+            btnText.innerHTML = "Hide Advenced search";
+            moreText.style.display = "inline";
         }
     }
 
