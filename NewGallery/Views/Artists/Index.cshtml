@@ -9,87 +9,111 @@
         display: none;
     }
 </style>
+
 <h2>Artist</h2>
+
 
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
 
-<button onclick="myFunction()" id="myBtn">Advenced Search</button>
 
-<form action="/Artists/Search" method="get">
-    <span id="more">
-        Enter Full name: to search<br>
-        <input type="text" name="name">
+<style>
+    body {
+        background-color: mintcream;
+    }
 
-        <br>
-        <br>
-        Enter Favorite Style to search:<br>
-        <input type="text" name="favstyle">
+    #searcher {
+        background-color: #20c997;
+    }
 
-        <br>
-        <br>
-        Enter Rate to serch:<br>
-        <input type="text" name="rate">
+    th {
+        padding: 5px;
+        text-align: left;
+    }
 
-        <br>
-        <br>
-        <br /><br />
-        <input type="submit" value="Search">
-    </span>
-</form>
+    td {
+        padding: 5px;
+        text-align: left;
+    }
+</style>
 
 
-<article class="container">
-    <table class="table">
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.ArtistName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Email)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.FavoriteStyle)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Rate)
-            </th>
-            <th></th>
-        </tr>
+<table style="width:100%">
+    <tr>
+        <th id="searcher">
+            <form action="/Artists/Search" method="get">
+                <span id="more">
+                    Enter Full name: to search<br>
+                    <input type="text" name="name">
 
-        <p>
+                    <br>
+                    <br>
+                    Enter Favorite Style to search:<br>
+                    <input type="text" name="favstyle">
 
-            <input type="text" id="textsearch" placeholder="For quick name filter...">
+                    <br>
+                    <br>
+                    Enter Rate to serch:<br>
+                    <input type="text" name="rate">
 
-        </p>
+                    <br>
+                    <br>
+                    <br /><br />
+                    <input type="submit" value="Search">
+                </span>
+            </form>
+        </th>
+        <th colspan="2">
+            <button onclick="myFunction()" id="myBtn">Advenced Search</button>
+            <input type="text" id="textsearch" placeholder="For quick Artist name filter...">
 
+            <table class="table">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.ArtistName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Email)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FavoriteStyle)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Rate)
+                    </th>
+                    <th></th>
+                </tr>
 
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.ArtistName)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Email)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.FavoriteStyle)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Rate)
-                </td>
-                <td>
-                    @Html.ActionLink("Edit", "Edit", new { id = item.ArtistID }) |
-                    @Html.ActionLink("Details", "Details", new { id = item.ArtistID }) |
-                    @Html.ActionLink("Delete", "Delete", new { id = item.ArtistID })
-                </td>
-            </tr>
-        }
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ArtistName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Email)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.FavoriteStyle)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Rate)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", new { id = item.ArtistID }) |
+                            @Html.ActionLink("Details", "Details", new { id = item.ArtistID }) |
+                            @Html.ActionLink("Delete", "Delete", new { id = item.ArtistID })
+                        </td>
+                    </tr>
+                }
 
-    </table>
-</article>
+            </table>
+
+        </th>
+    </tr>
+</table>
+
 
 <script src="~/js/jquery-3.3.1.min.js"></script>
 <script>
@@ -120,12 +144,9 @@
             moreText.style.display = "none";
         }
         else {
-           
+
             btnText.innerHTML = "Hide Advenced search";
             moreText.style.display = "inline";
         }
     }
-
-
-
 </script>
