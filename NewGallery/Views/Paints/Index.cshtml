@@ -12,26 +12,26 @@
 </p>
 
 
-    <form action="/Paints/Search" method="get">
-        Enter Paint name to search<br>
-        <input type="text" name="paintname">
+<form action="/Paints/Search" method="get">
+    Enter Paint name to search<br>
+    <input type="text" name="paintname">
 
-        <br>
-        <br>
-        Enter price to search:<br>
-        <input type="text" name="price">
+    <br>
+    <br>
+    Enter price to search:<br>
+    <input type="text" name="price">
 
-        <br>
-        <br>
-        Enter Type to serch:<br>
-        <input type="text" name="type">
+    <br>
+    <br>
+    Enter Type to serch:<br>
+    <input type="text" name="type">
 
-        <br>
-        <br>
-        <br /><br />
-        <input type="submit" value="Search">
+    <br>
+    <br>
+    <br /><br />
+    <input type="submit" value="Search">
 
-    </form>
+</form>
 
 <article class="container" onload="addScript()">
 
@@ -58,6 +58,12 @@
             </th>
             <th></th>
         </tr>
+
+        <p>
+
+            <input type="text" id="textsearch" placeholder="For quick name filter...">
+
+        </p>
 
         @foreach (var item in Model)
         {
@@ -93,8 +99,27 @@
     <script src="https://d3js.org/d3.v5.min.js"></script>
 
 </article>
+
 <br />
 <br />
+<script src="~/js/jquery-3.3.1.min.js"></script>
+<script>
+    $("#textsearch").on("keyup", function () {
+
+        var textenter = $(this).val();
+        $("table tr").each(function (res) {
+            if (res !== 0) {
+                var id = $(this).find("td:nth-child(1)").text();
+                if (id.indexOf(textenter) !== 0 && id.toLowerCase().indexOf(textenter.toLowerCase()) < 0) {
+                    $(this).hide();
+                }
+                else {
+                    $(this).show();
+                }
+            }
+        });
+    });
+</script>
 <style>
 
 
@@ -115,10 +140,11 @@
         {
 
             var t = "translate(0," + (i * 20) + ")";
-<g transform=@t>
-    <rect width=@(Model.GroupBy(p => p.artistname).ElementAt(i).Count()*100) height="19"></rect>
-    <text x=@(Model.GroupBy(p => p.artistname).ElementAt(i).Count()*160+10) y="9.5" dy=".35em" id="index_1">@Model.GroupBy(p => p.artistname).ElementAt(i).Key with count of : @(Model.GroupBy(p => p.artistname).ElementAt(i).Count())</text>
-</g>}
+            <g transform=@t>
+                <rect width=@(Model.GroupBy(p => p.artistname).ElementAt(i).Count()*100) height="19"></rect>
+                <text x=@(Model.GroupBy(p => p.artistname).ElementAt(i).Count()*160+10) y="9.5" dy=".35em" id="index_1">@Model.GroupBy(p => p.artistname).ElementAt(i).Key with count of : @(Model.GroupBy(p => p.artistname).ElementAt(i).Count())</text>
+            </g>
+}
 
     </svg>
 </article>
