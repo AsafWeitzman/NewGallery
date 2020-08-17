@@ -4,32 +4,19 @@
     ViewBag.Title = "Index";
 }
 <link href="@Url.Content("~/Content/Customer.css")" rel="stylesheet" type="text/css" />
-
+<!--
 <h2>Index</h2>
+
+
 
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
 
-
 <form action="/Paints/Search" method="get">
     Enter Paint name to search<br>
     <input type="text" name="paintname">
 
-    <br>
-    <br>
-    Enter price to search:<br>
-    <input type="text" name="price">
-
-    <br>
-    <br>
-    Enter Type to serch:<br>
-    <input type="text" name="type">
-
-    <br>
-    <br>
-    <br /><br />
-    <input type="submit" value="Search">
 
 </form>
 
@@ -144,18 +131,166 @@
                 <rect width=@(Model.GroupBy(p => p.artistname).ElementAt(i).Count()*100) height="19"></rect>
                 <text x=@(Model.GroupBy(p => p.artistname).ElementAt(i).Count()*160+10) y="9.5" dy=".35em" id="index_1">@Model.GroupBy(p => p.artistname).ElementAt(i).Key with count of : @(Model.GroupBy(p => p.artistname).ElementAt(i).Count())</text>
             </g>
-}
+
 
     </svg>
+
+
+
+
+
 </article>
 
+-->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!-- נירוס תראה איך זה נראה אם אהבת אני אשנה בכל החיפושים שיראה ככה אם לא אהבת אז כל הקוד מלמעלה זה כמו שהיה קודם-->
+<!--בנוסף בפונקצית מיון שעשית לפי מחיר ושמות אז זה לפי שמות האמנים ולא לפי שמות הציורים אז גם את זה שיניתי-->
+<!--כלומר שיניתי שבמקום שיהיה 'פיינט ניים' בצבע ירוק אז יהיה 'ארטיסט ניים' בצבע ירוק, והקוד המקורי נשאר בהערה-->
+<!---->
+<!---->
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<style>
+    body {
+        background-color: mintcream;
+    }
+
+    #searcher {
+        background-color: #20c997;
+    }
+
+    th {
+        padding: 5px;
+        text-align: left;
+    }
+
+    td {
+        padding: 5px;
+        text-align: left;
+    }
+</style>
 
 
+<table style="width:100%">
+    <tr>
+        <th id="searcher">
+            <form action="/Paints/Search" method="get">
+                Enter Paint name to search<br>
+                <input type="text" name="paintname">
+
+                <br>
+                <br>
+                Enter price to search:<br>
+                <input type="text" name="price">
+
+                <br>
+                <br>
+                Enter Type to serch:<br>
+                <input type="text" name="type">
+
+                <br>
+                <br>
+                <br /><br />
+                <input type="submit" value="Search">
+
+            </form>
+        </th>
+        <th colspan="2">
+            <table class="table">
+                <tr>
+                    <th>
+                        <!--@Html.DisplayNameFor(model => model.Artist.ArtistName)--> <!-- נירוס הפונקציה שרשמת עם המיון היא על שמות האמנים ולא עם שמות הציורים אז עשיתי רק שינוי של הכפתור-->
+                        @Html.ActionLink("Artist Name", "Index", new { sortOrder = ViewBag.NameSortParm })
 
 
+                    </th>
+                    <th>
+                        <!--@Html.ActionLink("Paint Name", "Index", new { sortOrder = ViewBag.NameSortParm })-->
+                        @Html.DisplayNameFor(model => model.Paintname)
 
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.CreateDate)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Size)
+                    </th>
+                    <th>
+                        @Html.ActionLink("Price", "Index", new { sortOrder = ViewBag.PriceSortParm })
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Type)
+                    </th>
+                    <th></th>
+                </tr>
 
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.artistname)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Paintname)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CreateDate)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Size)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Price)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Type)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", new { id = item.PaintID }) |
+                            @Html.ActionLink("Details", "Details", new { id = item.PaintID }) |
+                            @Html.ActionLink("Delete", "Delete", new { id = item.PaintID })
+                        </td>
+                    </tr>
+                }
 
+            </table>
+        </th>
+    </tr>
 
+    <tr>
+        <th colspan="3">
+            <style>
+                svg rect {
+                    fill: orange;
+                }
 
+                svg text {
+                    fill: #20c997;
+                    font: 10px sans-serif;
+                    text-anchor: end;
+                }
+            </style>
+            <h3>Our Artists Paints Leaders :</h3>
+            <article>
+                <svg class="chart" width="520" height="520">
+                    @for (var i = 0; i < Model.GroupBy(p => p.artistname).Count(); i++)
+                    {
 
+                        var t = "translate(0," + (i * 20) + ")";
+                        <g transform=@t>
+                            <rect width=@(Model.GroupBy(p => p.artistname).ElementAt(i).Count()*100) height="19"></rect>
+                            <text x=@(Model.GroupBy(p => p.artistname).ElementAt(i).Count()*160+10) y="9.5" dy=".35em" id="index_1">@Model.GroupBy(p => p.artistname).ElementAt(i).Key with count of : @(Model.GroupBy(p => p.artistname).ElementAt(i).Count())</text>
+                        </g>
+                    }
+
+                </svg>
+            </article>
+        </th>
+    </tr>
+</table>
