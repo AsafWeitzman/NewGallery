@@ -5,11 +5,63 @@
 }
 <link href="@Url.Content("~/Content/Customer.css")" rel="stylesheet" type="text/css" />
 
+
+
+
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
+
+
+
 <style>
+    .tooltip_1 {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black;
+    }
+
+        .tooltip_1 .tooltiptext_1 {
+            visibility: hidden;
+            width: 600px;
+            background-color: #555;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 0;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%;
+            left: 50%;
+            margin-left: -60px;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+            .tooltip_1 .tooltiptext_1::after {
+                content: "";
+                position: absolute;
+                top: 100%;
+                left: 50%;
+                margin-left: -5px;
+                border-width: 5px;
+                border-style: solid;
+                border-color: #555 transparent transparent transparent;
+            }
+
+        .tooltip_1:hover .tooltiptext_1 {
+            visibility: visible;
+            opacity: 1;
+        }
+
+
+    img {
+        width: 50%;
+        height: 50%;
+    }
+
     body {
+        text-align: center;
         background-color: mintcream;
     }
 
@@ -32,6 +84,8 @@
         display: none;
     }
 </style>
+
+
 
 <table style="width:100%">
     <tr>
@@ -79,6 +133,7 @@
                         @Html.DisplayNameFor(model => model.Paintname)
 
                     </th>
+
                     <th>
                         @Html.DisplayNameFor(model => model.CreateDate)
                     </th>
@@ -100,9 +155,15 @@
                         <td>
                             @Html.DisplayFor(modelItem => item.artistname)
                         </td>
+
                         <td>
-                            @Html.DisplayFor(modelItem => item.Paintname)
+                           
+                            <div class="tooltip_1">
+                                @Html.DisplayFor(modelItem => item.Paintname)
+                                <span class="tooltiptext_1"><img src=" @Html.DisplayFor(modelItem => item.ImgUrl)"></span>
+                            </div>
                         </td>
+                        
                         <td>
                             @Html.DisplayFor(modelItem => item.CreateDate)
                         </td>
@@ -126,6 +187,7 @@
             </table>
         </th>
     </tr>
+
 
     <tr>
         <th colspan="3">
@@ -158,6 +220,12 @@
         </th>
     </tr>
 </table>
+
+
+
+
+
+
 <script src="~/js/jquery-3.3.1.min.js"></script>
 
 <script>
@@ -199,4 +267,3 @@
 
 
 <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
-

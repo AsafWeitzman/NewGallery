@@ -130,6 +130,7 @@
     <Compile Include="Controllers\CommentsController.cs" />
     <Compile Include="Controllers\CustomersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\Paints1Controller.cs" />
     <Compile Include="Controllers\PaintsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -161,6 +162,10 @@
     <Compile Include="Migrations\202008070037089_pasword.cs" />
     <Compile Include="Migrations\202008070037089_pasword.designer.cs">
       <DependentUpon>202008070037089_pasword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202008171739204_addingIMGurl.cs" />
+    <Compile Include="Migrations\202008171739204_addingIMGurl.designer.cs">
+      <DependentUpon>202008171739204_addingIMGurl.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Account.cs" />
@@ -2285,6 +2290,12 @@
     <Content Include="Views\Comments\CreateUserMode.cshtml" />
     <Content Include="Views\Comments\CreateUserModeGet.cshtml" />
     <Content Include="Views\Comments\IndexUserMode.cshtml" />
+    <Content Include="Views\Paints1\Create.cshtml" />
+    <Content Include="Views\Paints1\Delete.cshtml" />
+    <Content Include="Views\Paints1\Details.cshtml" />
+    <Content Include="Views\Paints1\Edit.cshtml" />
+    <Content Include="Views\Paints1\Index.cshtml" />
+    <Content Include="Views\Paints\Create1.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -2323,6 +2334,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202008070037089_pasword.resx">
       <DependentUpon>202008070037089_pasword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202008171739204_addingIMGurl.resx">
+      <DependentUpon>202008171739204_addingIMGurl.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
