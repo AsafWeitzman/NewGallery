@@ -153,9 +153,26 @@ namespace NewGallery.Controllers
         // POST: Paints/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
+        
+
+        /*
+        public ActionResult Create([Bind(Include = "PaintID,Paintname,CreateDate,Size,Price,Type,ArtistID")] Paint paint, int ArtistID)
+        {
+            paint.Artist = db.Artists.First(p => p.ArtistID == ArtistID);
+            paint.artistname = db.Artists.First(p => p.ArtistID == ArtistID).ArtistName;
+            if (ModelState.IsValid)
+            {
+                db.Paints.Add(paint);
+                db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+
+            ViewBag.ArtistID = new SelectList(db.Artists, "ArtistID", "ArtistName", paint.ArtistID);
+            return View(paint);
+        }*/
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "PaintID,Paintname,CreateDate,Size,Price,Type,ArtistID")] Paint paint, int ArtistID)
+        public ActionResult Create([Bind(Include = "PaintID,Paintname,CreateDate,Size,Price,Type,ArtistID,artistname,ImgUrl")] Paint paint, int ArtistID)
         {
             paint.Artist = db.Artists.First(p => p.ArtistID == ArtistID);
             paint.artistname = db.Artists.First(p => p.ArtistID == ArtistID).ArtistName;

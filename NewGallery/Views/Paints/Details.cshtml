@@ -11,13 +11,21 @@
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.Artist.ArtistName)
+            @Html.DisplayNameFor(model => model.artistname)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.Artist.ArtistName)
+            @Html.DisplayFor(model => model.artistname)
         </dd>
 
+        <dt>
+            @Html.DisplayNameFor(model => model.ImgUrl)
+            
+        </dt>
+        <dd>
+          <img src = "@Html.DisplayFor(model => model.ImgUrl).ToString()" width="500" height="500">
+          
+        </dd>
         <dt>
             @Html.DisplayNameFor(model => model.Paintname)
         </dt>
