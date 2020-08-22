@@ -126,11 +126,12 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ArtistandPaintsController.cs" />
     <Compile Include="Controllers\ArtistsController.cs" />
     <Compile Include="Controllers\CommentsController.cs" />
     <Compile Include="Controllers\CustomersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\Paints1Controller.cs" />
+    <Compile Include="Controllers\PaintsandCommentsController.cs" />
     <Compile Include="Controllers\PaintsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -167,13 +168,19 @@
     <Compile Include="Migrations\202008171739204_addingIMGurl.designer.cs">
       <DependentUpon>202008171739204_addingIMGurl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202008221314412_add2models.cs" />
+    <Compile Include="Migrations\202008221314412_add2models.designer.cs">
+      <DependentUpon>202008221314412_add2models.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Account.cs" />
     <Compile Include="Models\Artist.cs" />
+    <Compile Include="Models\ArtistsandPaints.cs" />
     <Compile Include="Models\Comment.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\MyDB.cs" />
     <Compile Include="Models\Paint.cs" />
+    <Compile Include="Models\PaintsandComments.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -2290,12 +2297,10 @@
     <Content Include="Views\Comments\CreateUserMode.cshtml" />
     <Content Include="Views\Comments\CreateUserModeGet.cshtml" />
     <Content Include="Views\Comments\IndexUserMode.cshtml" />
-    <Content Include="Views\Paints1\Create.cshtml" />
-    <Content Include="Views\Paints1\Delete.cshtml" />
-    <Content Include="Views\Paints1\Details.cshtml" />
-    <Content Include="Views\Paints1\Edit.cshtml" />
-    <Content Include="Views\Paints1\Index.cshtml" />
     <Content Include="Views\Paints\Create1.cshtml" />
+    <Content Include="Views\Paints\Jointables.cshtml" />
+    <Content Include="Views\ArtistandPaints\Index.cshtml" />
+    <Content Include="Views\PaintsandComments\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -2337,6 +2342,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202008171739204_addingIMGurl.resx">
       <DependentUpon>202008171739204_addingIMGurl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202008221314412_add2models.resx">
+      <DependentUpon>202008221314412_add2models.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

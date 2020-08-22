@@ -1,0 +1,26 @@
+﻿@model IEnumerable<NewGallery.Models.PaintsandComments>
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<h2>Paints & Comments</h2>
+
+<table class="table">
+    <tr>
+        <th>Paint name</th>
+        <th>Comment</th>
+        <th>Writer</th>
+        
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ThePaint.Paintname</td>
+            <td>@item.TheComment.Body</td>
+            <td>@item.TheComment.SentBy</td>
+
+        </tr>
+    }
+</table>

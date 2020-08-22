@@ -85,185 +85,191 @@
     }
 </style>
 
+<form action="/ArtistandPaints/index" method="get">
+    <input type="submit" value="Paints&Artists Table">
+    </form>
 
 
-<table style="width:100%">
-    <tr>
-        <th id="searcher">
+    <table style="width:100%">
+        <tr>
+            <th id="searcher">
 
 
-            <form action="/Paints/Search" method="get">
-                <span id="more">
+                <form action="/Paints/Search" method="get">
+                    <span id="more">
 
-                    Enter Paint name to search<br>
-                    <input type="text" name="paintname">
+                        Enter Paint name to search<br>
+                        <input type="text" name="paintname">
 
-                    <br>
-                    <br>
-                    Enter price to search:<br>
-                    <input type="text" name="price">
+                        <br>
+                        <br>
+                        Enter price to search:<br>
+                        <input type="text" name="price">
 
-                    <br>
-                    <br>
-                    Enter Type to serch:<br>
-                    <input type="text" name="type">
+                        <br>
+                        <br>
+                        Enter Type to serch:<br>
+                        <input type="text" name="type">
 
-                    <br>
-                    <br>
-                    <br /><br />
-                    <input type="submit" value="Search">
-                </span>
-            </form>
-        </th>
-        <th colspan="2">
-
-
-            <button onclick="myFunction()" id="myBtn">Advenced Search</button>
-            <input type="text" id="textsearch" placeholder="For quick Paint name filter...">
+                        <br>
+                        <br>
+                        <br /><br />
+                        <input type="submit" value="Search">
+                    </span>
+                </form>
+            </th>
+            <th colspan="2">
 
 
-            <table class="table">
-                <tr>
-                    <th>
-                        @Html.ActionLink("Artist Name", "Index", new { sortOrder = ViewBag.NameSortParm })
+                <button onclick="myFunction()" id="myBtn">Advenced Search</button>
+                <input type="text" id="textsearch" placeholder="For quick Paint name filter...">
 
-                    </th>
-                    <th>
 
-                        @Html.DisplayNameFor(model => model.Paintname)
-
-                    </th>
-
-                    <th>
-                        @Html.DisplayNameFor(model => model.CreateDate)
-                    </th>
-                    <th>
-                        @Html.DisplayNameFor(model => model.Size)
-                    </th>
-                    <th>
-                        @Html.ActionLink("Price", "Index", new { sortOrder = ViewBag.PriceSortParm })
-                    </th>
-                    <th>
-                        @Html.DisplayNameFor(model => model.Type)
-                    </th>
-                    <th></th>
-                </tr>
-
-                @foreach (var item in Model)
-                {
+                <table class="table">
                     <tr>
-                        <td>
-                            @Html.DisplayFor(modelItem => item.artistname)
-                        </td>
+                        <th>
+                            @Html.ActionLink("Artist Name", "Index", new { sortOrder = ViewBag.NameSortParm })
 
-                        <td>
-                           
-                            <div class="tooltip_1">
-                                @Html.DisplayFor(modelItem => item.Paintname)
-                                <span class="tooltiptext_1"><img src=" @Html.DisplayFor(modelItem => item.ImgUrl)"></span>
-                            </div>
-                        </td>
-                        
-                        <td>
-                            @Html.DisplayFor(modelItem => item.CreateDate)
-                        </td>
-                        <td>
-                            @Html.DisplayFor(modelItem => item.Size)
-                        </td>
-                        <td>
-                            @Html.DisplayFor(modelItem => item.Price)
-                        </td>
-                        <td>
-                            @Html.DisplayFor(modelItem => item.Type)
-                        </td>
-                        <td>
-                            @Html.ActionLink("Edit", "Edit", new { id = item.PaintID }) |
-                            @Html.ActionLink("Details", "Details", new { id = item.PaintID }) |
-                            @Html.ActionLink("Delete", "Delete", new { id = item.PaintID })
-                        </td>
+                        </th>
+                        <th>
+
+                            @Html.DisplayNameFor(model => model.Paintname)
+
+                        </th>
+
+                        <th>
+                            @Html.DisplayNameFor(model => model.CreateDate)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Size)
+                        </th>
+                        <th>
+                            @Html.ActionLink("Price", "Index", new { sortOrder = ViewBag.PriceSortParm })
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Type)
+                        </th>
+                        <th></th>
                     </tr>
-                }
 
-            </table>
-        </th>
-    </tr>
-
-
-    <tr>
-        <th colspan="3">
-            <style>
-                svg rect {
-                    fill: orange;
-                }
-
-                svg text {
-                    fill: #20c997;
-                    font: 10px sans-serif;
-                    text-anchor: end;
-                }
-            </style>
-            <h3>Our Artists Paints Leaders :</h3>
-            <article>
-                <svg class="chart" width="520" height="520">
-                    @for (var i = 0; i < Model.GroupBy(p => p.artistname).Count(); i++)
+                    @foreach (var item in Model)
                     {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.artistname)
+                            </td>
 
-                        var t = "translate(0," + (i * 20) + ")";
-                        <g transform=@t>
-                            <rect width=@(Model.GroupBy(p => p.artistname).ElementAt(i).Count()*100) height="19"></rect>
-                            <text x=@(Model.GroupBy(p => p.artistname).ElementAt(i).Count()*160+10) y="9.5" dy=".35em" id="index_1">@Model.GroupBy(p => p.artistname).ElementAt(i).Key with count of : @(Model.GroupBy(p => p.artistname).ElementAt(i).Count())</text>
-                        </g>
+                            <td>
+
+                                <div class="tooltip_1">
+                                    @Html.DisplayFor(modelItem => item.Paintname)
+                                    <span class="tooltiptext_1"><img src=" @Html.DisplayFor(modelItem => item.ImgUrl)"></span>
+                                </div>
+                            </td>
+
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CreateDate)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Size)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Price)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Type)
+                            </td>
+                            <td>
+                                @Html.ActionLink("Edit", "Edit", new { id = item.PaintID }) |
+                                @Html.ActionLink("Details", "Details", new { id = item.PaintID }) |
+                                @Html.ActionLink("Delete", "Delete", new { id = item.PaintID })
+                            </td>
+                        </tr>
                     }
 
-                </svg>
-            </article>
-        </th>
-    </tr>
-</table>
+                </table>
+            </th>
+        </tr>
+
+
+        <tr>
+            <th colspan="3">
+                <style>
+                    svg rect {
+                        fill: orange;
+                    }
+
+                    svg text {
+                        fill: #20c997;
+                        font: 10px sans-serif;
+                        text-anchor: end;
+                    }
+                </style>
+                <h3>Our Artists Paints Leaders :</h3>
+                <article>
+                    <svg class="chart" width="520" height="520">
+                        @for (var i = 0; i < Model.GroupBy(p => p.artistname).Count(); i++)
+                        {
+
+                            var t = "translate(0," + (i * 20) + ")";
+                            <g transform=@t>
+                                <rect width=@(Model.GroupBy(p => p.artistname).ElementAt(i).Count()*100) height="19"></rect>
+                                <text x=@(Model.GroupBy(p => p.artistname).ElementAt(i).Count()*160+10) y="9.5" dy=".35em" id="index_1">@Model.GroupBy(p => p.artistname).ElementAt(i).Key with count of : @(Model.GroupBy(p => p.artistname).ElementAt(i).Count())</text>
+                            </g>
+                        }
+
+                    </svg>
+                </article>
+            </th>
+        </tr>
+    </table>
 
 
 
 
 
 
-<script src="~/js/jquery-3.3.1.min.js"></script>
 
-<script>
-    $("#textsearch").on("keyup", function () {
 
-        var textenter = $(this).val();
-        $("table tr").each(function (res) {
-            if (res !== 0) {
-                var id = $(this).find("td:nth-child(2)").text();
-                if (id.indexOf(textenter) !== 0 && id.toLowerCase().indexOf(textenter.toLowerCase()) < 0) {
-                    $(this).hide();
+
+    <script src="~/js/jquery-3.3.1.min.js"></script>
+
+    <script>
+        $("#textsearch").on("keyup", function () {
+
+            var textenter = $(this).val();
+            $("table tr").each(function (res) {
+                if (res !== 0) {
+                    var id = $(this).find("td:nth-child(2)").text();
+                    if (id.indexOf(textenter) !== 0 && id.toLowerCase().indexOf(textenter.toLowerCase()) < 0) {
+                        $(this).hide();
+                    }
+                    else {
+                        $(this).show();
+                    }
                 }
-                else {
-                    $(this).show();
-                }
-            }
+            });
         });
-    });
-</script>
+    </script>
 
-<script>
-    function myFunction() {
+    <script>
+        function myFunction() {
 
-        var moreText = document.getElementById("more");
-        var btnText = document.getElementById("myBtn");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
 
-        if (moreText.style.display === "inline") {
-            btnText.innerHTML = "Advenced Search";
-            moreText.style.display = "none";
+            if (moreText.style.display === "inline") {
+                btnText.innerHTML = "Advenced Search";
+                moreText.style.display = "none";
+            }
+            else {
+
+                btnText.innerHTML = "Hide Advenced search";
+                moreText.style.display = "inline";
+            }
         }
-        else {
 
-            btnText.innerHTML = "Hide Advenced search";
-            moreText.style.display = "inline";
-        }
-    }
-
-</script>
+    </script>
 
 
-<!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+    <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
