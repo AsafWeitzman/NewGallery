@@ -15,11 +15,13 @@
     </tr>
     @foreach (var item in Model)
     {
+
+        string ils = "₪ ";
         <tr>
             <td>@item.TheArtist.ArtistName</td>
             <td>@item.ThePaint.Paintname</td>
             <td>@item.TheArtist.Email</td>
-            <td>@item.ThePaint.Price</td>
+            <td>@ils@item.ThePaint.Price.ToString()</td>
 
         </tr>
     }
