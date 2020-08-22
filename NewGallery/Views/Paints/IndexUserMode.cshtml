@@ -74,6 +74,13 @@
         padding: 5px;
         text-align: left;
     }
+    #AandP {
+        text-align: center;
+    }
+    #PandC {
+        text-align: center;
+    }
+
 </style>
 
 
@@ -86,12 +93,12 @@
 
 
 
-<form action="/ArtistandPaints/IndexUserMode" method="get">
+<form id="AandP" action="/ArtistandPaints/IndexUserMode" method="get">
     <input type="submit" value="Paints&Artists Table">
 </form>
 
 <!--only admin?-->
-<form action="/PaintsandComments/IndexUserMode" method="get">
+<form id="PandC" action="/PaintsandComments/IndexUserMode" method="get">
     <input type="submit" value="All Comments Table">
 </form>
 

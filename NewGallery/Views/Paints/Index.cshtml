@@ -5,14 +5,9 @@
 }
 <link href="@Url.Content("~/Content/Customer.css")" rel="stylesheet" type="text/css" />
 
-
-
-
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-
-
 
 <style>
     .tooltip_1 {
@@ -74,6 +69,11 @@
         padding: 5px;
         text-align: left;
     }
+
+    #AandP {
+        text-align: center; 
+    }
+
 </style>
 <style>
     #more {
@@ -81,7 +81,7 @@
     }
 </style>
 
-<form action="/ArtistandPaints/index" method="get">
+<form id="AandP" action="/ArtistandPaints/index" method="get">
     <input type="submit" value="Paints&Artists Table">
     </form>
 
