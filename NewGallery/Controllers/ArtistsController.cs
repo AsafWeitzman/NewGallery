@@ -33,7 +33,22 @@ namespace NewGallery.Controllers
             */
             return View(db.Artists.ToList());
         }
-        
+        public PartialViewResult All()
+        {
+            List<Artist> artistlist = db.Artists.ToList();
+            return PartialView("PartialView", artistlist);
+        }
+        public PartialViewResult Top3ArtistRate()
+        {
+            List<Artist> artistlist = db.Artists.OrderByDescending(a=>a.Rate).Take(3).ToList();
+            return PartialView("PartialView", artistlist);
+
+        }
+        public PartialViewResult Buttom3ArtistRate()
+        {
+            List<Artist> artistlist = db.Artists.OrderBy(a => a.Rate).Take(3).ToList();
+            return PartialView("PartialView", artistlist);
+        }
         // GET: Artists
 
         public ActionResult IndexUserMode()
