@@ -24,5 +24,18 @@ namespace NewGallery.Controllers
             return View(Joinlist);
             
         }
+
+        public ActionResult IndexUserMode()
+        {
+            List<Comment> Commentlist = db.Comments.ToList();
+            List<Paint> Paintlist = db.Paints.ToList();
+
+            var Joinlist = from c in Commentlist
+                           join p in Paintlist on c.Paint.PaintID equals p.PaintID
+                           select new PaintsandComments { TheComment = c, ThePaint = p };
+
+            return View(Joinlist);
+
+        }
     }
 }

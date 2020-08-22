@@ -24,5 +24,17 @@ namespace NewGallery.Controllers
 
             return View(Joinlist);
         }
+
+        public ActionResult IndexUserMode()
+        {
+            List<Artist> Artistlist = db.Artists.ToList();
+            List<Paint> Paintlist = db.Paints.ToList();
+
+            var Joinlist = from a in Artistlist
+                           join p in Paintlist on a.ArtistID equals p.ArtistID
+                           select new ArtistsandPaints { TheArtist = a, ThePaint = p };
+
+            return View(Joinlist);
+        }
     }
 }

@@ -2304,6 +2304,8 @@
     <Content Include="Views\ArtistandPaints\Index.cshtml" />
     <Content Include="Views\PaintsandComments\Index.cshtml" />
     <Content Include="Views\Artists\PartialView.cshtml" />
+    <Content Include="Views\ArtistandPaints\IndexUserMode.cshtml" />
+    <Content Include="Views\PaintsandComments\IndexUserMode.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
