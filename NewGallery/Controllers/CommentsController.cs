@@ -6,6 +6,7 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using Microsoft.Ajax.Utilities;
 using NewGallery.Models;
 
 namespace NewGallery.Controllers
@@ -13,6 +14,8 @@ namespace NewGallery.Controllers
     public class CommentsController : Controller
     {
         private MyDB db = new MyDB();
+
+
 
         // GET: Comments
         public ActionResult Index()
@@ -50,12 +53,13 @@ namespace NewGallery.Controllers
         // GET: Comments/Create
         public ActionResult Create()
         {
+            /*
             string user = (string)HttpContext.Session["Type"];
             if (user != "Admin")
             {
-                return RedirectToAction("CreateUserModeGet", "Comments");
+                return RedirectToAction("CreateUserMode", "Comments");
             }
-
+            */
             ViewBag.PaintID = new SelectList(db.Paints.ToList(), "PaintID", "Paintname");
             return View();
         }
@@ -67,9 +71,6 @@ namespace NewGallery.Controllers
             return View();
         }
 
-
-
-
         // POST: Comments/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
@@ -77,14 +78,26 @@ namespace NewGallery.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "ID,Title,Body,SentBy,Posted")] Comment comment, int PaintID)
         {
-            /*
+            
+            //stil need to fix the user mode in create post
+            
+            
             string user = (string)HttpContext.Session["Type"];
             if (user != "Admin")
             {
-                return RedirectToAction("CreateUserMode", "Comments");
+                comment.Posted = DateTime.Now;
+                comment.Paint = db.Paints.First(p => p.PaintID == PaintID);
+                if (ModelState.IsValid)
+                {
+                    db.Comments.Add(comment);
+                    db.SaveChanges();
+                    return RedirectToAction("IndexUserMode");
+                }
+                ViewBag.PaintID = new SelectList(db.Paints, "PaintID", "Paintname");
+                return View(comment);
 
             }
-            */
+            
             comment.Posted = DateTime.Now;
             comment.Paint = db.Paints.First(p => p.PaintID == PaintID);
             if (ModelState.IsValid)
@@ -97,27 +110,7 @@ namespace NewGallery.Controllers
             return View(comment);
         }
 
-
-        // POST: Comments/Create
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult CreateUserMode([Bind(Include = "ID,Title,Body,SentBy,Posted")] Comment comment, int PaintID)
-        {
-
-            comment.Posted = DateTime.Now;
-            comment.Paint = db.Paints.First(p => p.PaintID == PaintID);
-            if (ModelState.IsValid)
-            {
-                db.Comments.Add(comment);
-                db.SaveChanges();
-                return RedirectToAction("Index");
-            }
-            ViewBag.PaintID = new SelectList(db.Paints, "PaintID", "Paintname");
-            return View(comment);
-        }
-
+        
 
         // GET: Comments/Edit/5
         public ActionResult Edit(int? id)

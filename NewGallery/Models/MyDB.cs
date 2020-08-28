@@ -11,10 +11,7 @@ namespace NewGallery.Models
         public DbSet<Artist> Artists { get; set; }
         public DbSet<Paint> Paints { get; set; }
         public DbSet<Customer> Customers { get; set; }
-
         public DbSet<Account> Accounts { get; set; }
-
-
         public System.Data.Entity.DbSet<NewGallery.Models.Comment> Comments { get; set; }
     }
 }

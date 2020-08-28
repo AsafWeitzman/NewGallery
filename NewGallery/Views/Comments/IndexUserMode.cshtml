@@ -6,16 +6,14 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>Comments</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
 <table class="table">
     <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Paint.Paintname)
-        </th>
+       
         <th>
             @Html.DisplayNameFor(model => model.Title)
         </th>
@@ -33,9 +31,7 @@
 
 @foreach (var item in Model) {
 <tr>
-    <td>
-        @Html.DisplayFor(modelItem => item.Paint.Paintname)
-    </td>
+    
     <td>
         @Html.DisplayFor(modelItem => item.Title)
     </td>
