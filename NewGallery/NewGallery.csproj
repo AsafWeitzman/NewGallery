@@ -2305,6 +2305,7 @@
     <Content Include="Views\ArtistandPaints\IndexUserMode.cshtml" />
     <Content Include="Views\PaintsandComments\IndexUserMode.cshtml" />
     <Content Include="Views\Comments\CreateUserMode.cshtml" />
+    <Content Include="Views\Comments\DetailsUserMode.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

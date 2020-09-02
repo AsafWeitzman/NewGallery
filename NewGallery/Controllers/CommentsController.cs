@@ -15,6 +15,8 @@ namespace NewGallery.Controllers
     {
         private MyDB db = new MyDB();
 
+        public static int id_s;
+
         // GET: Comments
         public ActionResult Index()
         {
@@ -36,11 +38,36 @@ namespace NewGallery.Controllers
         // GET: Comments/Details/5
         public ActionResult Details(int? id)
         {
+            
+
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
+
+            id_s = (int)id;
+            string user = (string)HttpContext.Session["Type"];
+            
+            if (user != "Admin")
+            {
+                return RedirectToAction("DetailsUserMode", "Comments");
+            }
+
             Comment comment = db.Comments.Find(id);
+            if (comment == null)
+            {
+                return HttpNotFound();
+            }
+            return View(comment);
+        }
+
+        public ActionResult DetailsUserMode()
+        {
+            if (id_s == 0)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Comment comment = db.Comments.Find(id_s);
             if (comment == null)
             {
                 return HttpNotFound();
