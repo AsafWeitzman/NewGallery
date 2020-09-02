@@ -2296,7 +2296,6 @@
     <Content Include="Views\Artists\SearchUserMode.cshtml" />
     <Content Include="Views\Paints\SearchUserMode.cshtml" />
     <Content Include="Views\Paints\DetailsUserMode.cshtml" />
-    <Content Include="Views\Comments\CreateUserMode.cshtml" />
     <Content Include="Views\Comments\IndexUserMode.cshtml" />
     <Content Include="Views\Paints\Create1.cshtml" />
     <Content Include="Views\Paints\Jointables.cshtml" />
@@ -2305,7 +2304,7 @@
     <Content Include="Views\Artists\PartialView.cshtml" />
     <Content Include="Views\ArtistandPaints\IndexUserMode.cshtml" />
     <Content Include="Views\PaintsandComments\IndexUserMode.cshtml" />
-    <Content Include="Views\Comments\CreateUserModeGet.cshtml" />
+    <Content Include="Views\Comments\CreateUserMode.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
