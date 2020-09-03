@@ -15,86 +15,90 @@
     -->
 <!--user cant create paints-->
 
-<form action="/Paints/Search" method="get">
-    Enter Paint name to search<br>
-    <input type="text" name="paintname">
 
-    <br>
-    <br>
-    Enter price to search:<br>
-    <input type="text" name="price">
 
-    <br>
-    <br>
-    Enter Type to serch:<br>
-    <input type="text" name="type">
+<table style="width:100%">
+    <tr>
+        <th id="searcher" style="background-color :lightgreen">
+            <form action="/Paints/Search" method="get">
+                Enter Paint name to search<br>
+                <input type="text" name="paintname">
 
-    <br>
-    <br>
-    <br /><br />
-    <input type="submit" value="Search">
+                <br>
+                <br>
+                Enter price to search:<br>
+                <input type="text" name="price">
 
-</form>
+                <br>
+                <br>
+                Enter Type to serch:<br>
+                <input type="text" name="type">
 
-<article class="container">
+                <br>
+                <br>
+                <br /><br />
+                <input type="submit" value="Search">
 
-    <table class="table">
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Artist.ArtistName)
+            </form>
+        </th>
+        <th colspan="2">
+            <table class="table">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Artist.ArtistName)
 
-            </th>
-            <th>
-                @Html.ActionLink("Paint Name", "Index", new { sortOrder = ViewBag.NameSortParm })
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CreateDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Size)
-            </th>
-            <th>
-                @Html.ActionLink("Price", "Index", new { sortOrder = ViewBag.PriceSortParm })
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Type)
-            </th>
-            <th></th>
-        </tr>
+                    </th>
+                    <th>
+                        @Html.ActionLink("Paint Name", "Index", new { sortOrder = ViewBag.NameSortParm })
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.CreateDate)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Size)
+                    </th>
+                    <th>
+                        @Html.ActionLink("Price", "Index", new { sortOrder = ViewBag.PriceSortParm })
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Type)
+                    </th>
+                    <th></th>
+                </tr>
 
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.artistname)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Paintname)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.CreateDate)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Size)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Price)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Type)
-                </td>
-                <td>
-                    @Html.ActionLink("Details", "Details", new { id = item.PaintID })
-                </td>
-            </tr>
-        }
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.artistname)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Paintname)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CreateDate)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Size)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Price)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Type)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Details", "Details", new { id = item.PaintID })
+                        </td>
+                    </tr>
+                }
 
-    </table>
-</article>
-<br />
-<br />
+            </table>
+        </th>
+    </tr>
+</table>
+
 <style>
-
 
     svg rect {
         fill: orange;
@@ -106,18 +110,22 @@
         text-anchor: end;
     }
 </style>
-<h3>Our Artists Paints Leaders :</h3>
-<article>
-    <svg class="chart" width="520" height="520">
-        @for (var i = 0; i < Model.GroupBy(p => p.artistname).Count(); i++)
-        {
 
-            var t = "translate(0," + (i * 20) + ")";
-            <g transform=@t>
-                <rect width=@(Model.GroupBy(p => p.artistname).ElementAt(i).Count()*100) height="19"></rect>
-                <text x=@(Model.GroupBy(p => p.artistname).ElementAt(i).Count()*160+10) y="9.5" dy=".35em" id="index_1">@Model.GroupBy(p => p.artistname).ElementAt(i).Key with count of : @(Model.GroupBy(p => p.artistname).ElementAt(i).Count())</text>
-            </g>
-}
+<div class="container">
 
-    </svg>
-</article>
+    <h3>Our Artists Paints Leaders :</h3>
+    <article>
+        <svg class="chart" width="520" height="520">
+            @for (var i = 0; i < Model.GroupBy(p => p.artistname).Count(); i++)
+            {
+
+                var t = "translate(0," + (i * 20) + ")";
+                <g transform=@t>
+                    <rect width=@(Model.GroupBy(p => p.artistname).ElementAt(i).Count()*100) height="19"></rect>
+                    <text x=@(Model.GroupBy(p => p.artistname).ElementAt(i).Count()*160+10) y="9.5" dy=".35em" id="index_1">@Model.GroupBy(p => p.artistname).ElementAt(i).Key with count of : @(Model.GroupBy(p => p.artistname).ElementAt(i).Count())</text>
+                </g>
+            }
+
+        </svg>
+    </article>
+</div>

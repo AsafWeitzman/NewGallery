@@ -5,8 +5,14 @@ body {
 
 * {
     box-sizing: border-box;
+    text-align: center;
 }
 
+
+section{
+    display:block;
+
+}
 
 /* style the container */
 .container {

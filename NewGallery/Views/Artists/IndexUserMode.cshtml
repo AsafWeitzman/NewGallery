@@ -16,74 +16,77 @@
 <!--User cant create artist-->
 
 
-<form action="/Artists/Search" method="get">
-    Enter Full name: to search<br>
-    <input type="text" name="name">
-    <input type="submit" value="Search">
-    <br>
-    <br>
-    Enter Favorite Style to search:<br>
-    <input type="text" name="favstyle">
-    <input type="submit" value="Search">
-    <br>
-    <br>
-    Enter Rate to serch:<br>
-    <input type="text" name="rate">
-    <input type="submit" value="Search">
-    <br>
-    <br>
-    <br /><br />
+<table style="width:100%">
+    <tr>
+        <th id="searcher" style="background-color :lightgreen">
+            <form action="/Artists/Search" method="get">
+                Enter Full name: to search<br>
+                <input type="text" name="name">
+                <input type="submit" value="Search">
+                <br>
+                <br>
+                Enter Favorite Style to search:<br>
+                <input type="text" name="favstyle">
+                <input type="submit" value="Search">
+                <br>
+                <br>
+                Enter Rate to serch:<br>
+                <input type="text" name="rate">
+                <input type="submit" value="Search">
+                <br>
+                <br>
+                <br /><br />
+            </form>
+            <p>
 
-</form>
-<p>
+                <input type="text" id="textsearch" placeholder="For quick name filter...">
 
-    <input type="text" id="textsearch" placeholder="For quick name filter...">
+            </p>
+        </th>
+        <th colspan="2">
+            <table class="table">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.ArtistName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Email)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FavoriteStyle)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Rate)
+                    </th>
+                    <th></th>
+                </tr>
 
-</p>
-<article class="container">
-    <table class="table">
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.ArtistName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Email)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.FavoriteStyle)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Rate)
-            </th>
-            <th></th>
-        </tr>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ArtistName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Email)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.FavoriteStyle)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Rate)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Details", "Details", new { id = item.ArtistID })
+                        </td>
+                    </tr>
+                }
 
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.ArtistName)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Email)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.FavoriteStyle)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Rate)
-                </td>
-                <td>
-                    @Html.ActionLink("Details", "Details", new { id = item.ArtistID })
-                </td>
-            </tr>
-        }
+            </table>
+        </th>
+    </tr>
+</table>
 
-
-
-
-    </table>
-</article>
 <script src="~/js/jquery-3.3.1.min.js"></script>
 <script>
     $("#textsearch").on("keyup", function () {

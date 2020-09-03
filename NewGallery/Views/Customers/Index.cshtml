@@ -2,8 +2,8 @@
 
 @{ ViewBag.Title = "Index";}
 
-    <link href="@Url.Content("~/Content/Customer.css")" rel="stylesheet" type="text/css" />
-    <h2> Our Customer:</h2>
+<link href="@Url.Content("~/Content/Customer.css")" rel="stylesheet" type="text/css" />
+<h2> Our Customer:</h2>
 
 <p>
     @Html.ActionLink("Register", "Create")
@@ -11,65 +11,68 @@
 
 
 
-    <p>
-        <form action="/Customers/Search" method="get">
 
-            Enter Full Name to search:<br>
-            <input type="text" name="name">
-           
-            <br>
-            <br>
-            Enter Phone number to search:<br>
-            <input type="text" name="phonenumber">
-          
-            <br /><br />
-            <input type="submit" value="Search">
 
-        </form>
-    </p>
 
-   
-<article class="container">
+<table style="width:100%">
+    <tr>
+        <th id="searcher" style="background-color :lightgreen">
+            <form action="/Customers/Search" method="get">
 
-    <table class="table">
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.CustName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Email)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Gender)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.PhoneNum)
-            </th>
-            <th></th>
-        </tr>
+                Enter Full Name to search:<br>
+                <input type="text" name="name">
 
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.CustName)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Email)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Gender)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.PhoneNum)
-                </td>
-                <td>
-                    @Html.ActionLink("Edit", "Edit", new { id = item.CustomerID }) |
-                    @Html.ActionLink("Details", "Details", new { id = item.CustomerID }) |
-                    @Html.ActionLink("Delete", "Delete", new { id = item.CustomerID })
-                </td>
-            </tr>
-        }
+                <br>
+                <br>
+                Enter Phone number to search:<br>
+                <input type="text" name="phonenumber">
 
-    </table>
-</article>
+                <br /><br />
+                <input type="submit" value="Search">
+
+            </form>
+        </th>
+        <th colspan="2">
+            <table class="table">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.CustName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Email)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Gender)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.PhoneNum)
+                    </th>
+                    <th></th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CustName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Email)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Gender)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.PhoneNum)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", new { id = item.CustomerID }) |
+                            @Html.ActionLink("Details", "Details", new { id = item.CustomerID }) |
+                            @Html.ActionLink("Delete", "Delete", new { id = item.CustomerID })
+                        </td>
+                    </tr>
+                }
+            </table>
+        </th>
+    </tr>
+</table>

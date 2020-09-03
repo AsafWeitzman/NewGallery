@@ -251,9 +251,8 @@
             </table>
         </th>
     </tr>
+</table>
 
-    <tr>
-        <th colspan="3">
             <style>
                 svg rect {
                     fill: orange;
@@ -265,21 +264,22 @@
                     text-anchor: end;
                 }
             </style>
-            <h3>Our Artists Paints Leaders :</h3>
-            <article>
-                <svg class="chart" width="520" height="520">
-                    @for (var i = 0; i < Model.GroupBy(p => p.artistname).Count(); i++)
-                    {
 
-                        var t = "translate(0," + (i * 20) + ")";
-                        <g transform=@t>
-                            <rect width=@(Model.GroupBy(p => p.artistname).ElementAt(i).Count()*100) height="19"></rect>
-                            <text x=@(Model.GroupBy(p => p.artistname).ElementAt(i).Count()*160+10) y="9.5" dy=".35em" id="index_1">@Model.GroupBy(p => p.artistname).ElementAt(i).Key with count of : @(Model.GroupBy(p => p.artistname).ElementAt(i).Count())</text>
-                        </g>
-                    }
+            <div class="container">
+                <h3>Our Artists Paints Leaders :</h3>
+                <article>
+                    <svg class="chart" width="520" height="520">
+                        @for (var i = 0; i < Model.GroupBy(p => p.artistname).Count(); i++)
+                        {
 
-                </svg>
-            </article>
-        </th>
-    </tr>
-</table>
+                            var t = "translate(0," + (i * 20) + ")";
+                            <g transform=@t>
+                                <rect width=@(Model.GroupBy(p => p.artistname).ElementAt(i).Count()*100) height="19"></rect>
+                                <text x=@(Model.GroupBy(p => p.artistname).ElementAt(i).Count()*160+10) y="9.5" dy=".35em" id="index_1">@Model.GroupBy(p => p.artistname).ElementAt(i).Key with count of : @(Model.GroupBy(p => p.artistname).ElementAt(i).Count())</text>
+                            </g>
+                        }
+
+                    </svg>
+                </article>
+             </div>
+     
