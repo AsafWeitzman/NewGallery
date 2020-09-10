@@ -106,28 +106,6 @@ namespace NewGallery.Controllers
         public ActionResult Create([Bind(Include = "ID,Title,Body,SentBy,Posted")] Comment comment, int PaintID)
         {
             
-            //stil need to fix the user mode in create post
-            
-            //not in comment
-            /*
-            string user = (string)HttpContext.Session["Type"];
-            if (user != "Admin")
-            {
-                comment.Posted = DateTime.Now;
-                comment.Paint = db.Paints.First(p => p.PaintID == PaintID);
-                if (ModelState.IsValid)
-                {
-                    db.Comments.Add(comment);
-                    db.SaveChanges();
-                    return RedirectToAction("IndexUserMode");
-                }
-                ViewBag.PaintID = new SelectList(db.Paints, "PaintID", "Paintname");
-                return View(comment);
-
-            }
-            */
-            //
-
             comment.Posted = DateTime.Now;
             comment.Paint = db.Paints.First(p => p.PaintID == PaintID);
             if (ModelState.IsValid)
