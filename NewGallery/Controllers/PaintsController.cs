@@ -121,8 +121,8 @@ namespace NewGallery.Controllers
 
         public ActionResult DetailsUserMode()
         {
-            var thechosenartist = db.Paints.First(paint2 => paint2.PaintID == id_s).artistname;
-            string catching = statisticsOnCustomer(thechosenartist.ToString());
+            var theChosenArtist = db.Paints.First(paint2 => paint2.PaintID == id_s).artistname;
+            string catching = statisticsOnCustomer(theChosenArtist.ToString());
             if (catching!=null)
             {
                 ViewData["chosens"] = catching;
@@ -255,115 +255,7 @@ namespace NewGallery.Controllers
             base.Dispose(disposing);
         }
 
-        /*
-        public ActionResult Search(string paintname, string type, int? price)
-        {
-
-            paint_name = paintname;
-            type_s = type;
-            if (price == null)
-            {
-                price_s = 0;
-            }
-            else { price = (int)price_s; }
-
-            List<Paint> Paintlist = new List<Paint>();
-
-            string user = (string)HttpContext.Session["Type"];
-            if (user != "Admin")
-            {
-                return RedirectToAction("SearchUserMode", "Paints");
-            }
-
-
-            if ((paintname == null || paintname == "") && (type == null || type == "") && price == null)
-            {
-                return RedirectToAction("Index");
-            }
-
-
-            if ((type == null || type == "") && price == null)
-            {
-                foreach (Paint p in db.Paints)
-                {
-                    if (p.Size.Contains(paintname))
-                    {
-                        Paintlist.Add(p);
-                    }
-                }
-                return View(Paintlist);
-            }
-            else if ((paintname == null || paintname == "") && price == null)
-            {
-                foreach (Paint p in db.Paints)
-                {
-                    if (p.Type.Contains(type))
-                    {
-                        Paintlist.Add(p);
-                    }
-                }
-                return View(Paintlist);
-            }
-            else if ((paintname == null || paintname == "") && (type == null || type == ""))
-            {
-                foreach (Paint p in db.Paints)
-                {
-                    if (p.Price <= price)
-                    {
-                        Paintlist.Add(p);
-                    }
-                }
-                return View(Paintlist);
-            }
-            else if (paintname == null || paintname == "")
-            {
-                foreach (Paint p in db.Paints)
-                {
-                    if (p.Price <= price && p.Type.Contains(type))
-                    {
-                        Paintlist.Add(p);
-                    }
-                }
-                return View(Paintlist);
-            }
-
-            else if (type == null || type == "")
-            {
-                foreach (Paint p in db.Paints)
-                {
-                    if (p.Size.Contains(paintname) && p.Price <= price)
-                    {
-                        Paintlist.Add(p);
-                    }
-                }
-                return View(Paintlist);
-            }
-            else if (price == null)
-            {
-                foreach (Paint p in db.Paints)
-                {
-                    if (p.Type.Contains(type) && p.Size.Contains(paintname))
-                    {
-                        Paintlist.Add(p);
-                    }
-                }
-                return View(Paintlist);
-            }
-            else
-            {
-                foreach (Paint p in db.Paints)
-                {
-                    if (p.Size.Contains(paintname) && p.Type.Contains(type) && p.Price <= price)
-                    {
-                        Paintlist.Add(p);
-                    }
-                }
-                return View(Paintlist);
-            }
-
-        }*/ //not good func
-
-        //same as search but after fixing bugs
+        
         public ActionResult Search(string paintname, string type, int? price)
         {
 
@@ -472,9 +364,12 @@ namespace NewGallery.Controllers
         }
 
 
-        private string statisticsOnCustomer(string paintName)
+        private string statisticsOnCustomer(string paintName) 
         {
             int maximum_search = 2;
+
+
+            
 
             Dictionary<String, int> StatisticsOnPaintType = (Dictionary<string, int>)HttpContext.Session["d_favPaint"];
             if (StatisticsOnPaintType==null)
@@ -498,104 +393,11 @@ namespace NewGallery.Controllers
             }
 
             return null;
-
         }
 
 
-        /*
-        public ActionResult SearchUserMode()
-        {
-            List<Paint> Paintlist = new List<Paint>();
+        
 
-            if ((paint_name == null || paint_name == "") && (type_s == null || type_s == "") && price_s == 0)
-            {
-                return RedirectToAction("Index");
-            }
-
-            if ((type_s == null || type_s == "") && price_s == 0)
-            {
-
-                foreach (Paint p in db.Paints)
-                {
-                    if (p.Size.Contains(paint_name)) 
-                    {
-                        Paintlist.Add(p);
-                    }
-                }
-                return View(Paintlist);
-            }
-            else if ((paint_name == null || paint_name == "") && price_s == 0)
-            {
-                foreach (Paint p in db.Paints)
-                {
-                    if (p.Type.Contains(type_s))
-                    {
-                        Paintlist.Add(p);
-                    }
-                }
-                return View(Paintlist);
-            }
-            else if ((paint_name == null || paint_name == "") && (type_s == null || type_s == ""))
-            {
-                foreach (Paint p in db.Paints)
-                {
-                    if (p.Price <= price_s)
-                    {
-                        Paintlist.Add(p);
-                    }
-                }
-                return View(Paintlist);
-            }
-            else if (paint_name == null || paint_name == "")
-            {
-                foreach (Paint p in db.Paints)
-                {
-                    if (p.Price <= price_s && p.Type.Contains(type_s))
-                    {
-                        Paintlist.Add(p);
-                    }
-                }
-                return View(Paintlist);
-            }
-
-            else if (type_s == null || type_s == "")
-            {
-                foreach (Paint p in db.Paints)
-                {
-                    if (p.Size.Contains(paint_name) && p.Price <= price_s)
-                    {
-                        Paintlist.Add(p);
-                    }
-                }
-                return View(Paintlist);
-            }
-            else if (price_s == 0)
-            {
-                foreach (Paint p in db.Paints)
-                {
-                    if (p.Type.Contains(type_s) && p.Size.Contains(paint_name))
-                    {
-                        Paintlist.Add(p);
-                    }
-                }
-                return View(Paintlist);
-            }
-            else
-            {
-                foreach (Paint p in db.Paints)
-                {
-                    if (p.Size.Contains(paint_name) && p.Type.Contains(type_s) && p.Price <= price_s)
-                    {
-                        Paintlist.Add(p);
-                    }
-                }
-
-                return View(Paintlist);
-            }
-
-        }*/ //not good func
-
-        //same as SearchUserMode but after fixing bugs
 
         public ActionResult SearchUserMode()
         {

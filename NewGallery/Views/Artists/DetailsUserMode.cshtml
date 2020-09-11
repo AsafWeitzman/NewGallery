@@ -1,6 +1,8 @@
 ﻿@model NewGallery.Models.Artist
 
 @{
+    Layout = "~/Views/Shared/_LayoutUserMode.cshtml";
+
     ViewBag.Title = "Details";
 }
 
@@ -62,9 +64,7 @@
         <th>
             @Html.ActionLink("Price", "Index", new { sortOrder = ViewBag.PriceSortParm })
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Paints.First().Type)
-        </th>
+        
         <th></th>
     </tr>
 

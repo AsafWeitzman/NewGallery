@@ -16,6 +16,7 @@ namespace NewGallery.Controllers
         public static string artist_name;
         public static string fave_style;
         public static int rate_s;
+        public static int id_details_s;
         //
 
         private MyDB db = new MyDB();
@@ -23,14 +24,13 @@ namespace NewGallery.Controllers
         // GET: Artists
         public ActionResult Index()
         {
-            /*
             string user = (string)HttpContext.Session["Type"];
 
             if (user != "Admin")
             {
                 return RedirectToAction("IndexUserMode", "Artists");
             }
-            */
+            
             return View(db.Artists.ToList());
         }
         public PartialViewResult All()
@@ -59,13 +59,22 @@ namespace NewGallery.Controllers
         // GET: Artists/Details/5
         public ActionResult Details(int? id)
         {
-            /*
+            if (id == null)
+            {
+                id_details_s = 0;
+            }
+            else 
+            {
+                id_details_s = (int)id ; 
+            }
+
+
             string user = (string)HttpContext.Session["Type"];
             if (user != "Admin")
             {
                 return RedirectToAction("DetailsUserMode", "Artists");
             }
-            */
+            
 
             if (id == null)
             {
@@ -80,14 +89,14 @@ namespace NewGallery.Controllers
             return View(artist);
         }
 
-        /*
-        public ActionResult DetailsUserMode(int? id)
+        
+        public ActionResult DetailsUserMode()
         {
-            if (id == null)
+            if (id_details_s == 0)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Artist artist = db.Artists.Include(a => a.Paints).First(a => a.ArtistID == id);
+            Artist artist = db.Artists.Include(a => a.Paints).First(a => a.ArtistID == id_details_s);
 
             if (artist == null)
             {
@@ -95,7 +104,7 @@ namespace NewGallery.Controllers
             }
             return View(artist);
         }
-        */
+        
 
         // GET: Artists/Create
         public ActionResult Create()

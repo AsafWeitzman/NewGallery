@@ -58,6 +58,9 @@ namespace NewGallery.Controllers
 
             HttpContext.Session["d_favPaint"] = new Dictionary<string,int>();
 
+            HttpContext.Session["d_Rate"] = new Dictionary<string, int>();
+
+
 
 
             /*
