@@ -92,6 +92,16 @@ namespace NewGallery.Controllers
         
         public ActionResult DetailsUserMode()
         {
+
+            /*
+            var theChosenArtist = db.Paints.First(paint2 => paint2.PaintID == id_s).artistname;
+
+            string catching = statisticsOnCustomer(theChosenArtist.ToString());
+            if (catching != null)
+            {
+                ViewData["chosens"] = catching;
+            }
+            */
             if (id_details_s == 0)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
@@ -104,7 +114,37 @@ namespace NewGallery.Controllers
             }
             return View(artist);
         }
-        
+
+        /*
+        private string statisticsOnCustomer(string artistName)
+        {
+            int maximum_search = 5;
+
+            Dictionary<String, int> Statistics = (Dictionary<string, int>)HttpContext.Session["d_Rate"];
+            if (Statistics == null)
+            {
+                Statistics = new Dictionary<string, int>();
+            }
+            if (StatisticsOnPaintType.ContainsKey(artistName) == true)
+            {
+                StatisticsOnPaintType[artistName] += 1;
+                HttpContext.Session["d_favPaint"] = StatisticsOnPaintType;
+            }
+            else
+            {
+                StatisticsOnPaintType.Add(artistName, 1);
+                HttpContext.Session["d_favPaint"] = StatisticsOnPaintType;
+            }
+
+            if (StatisticsOnPaintType[artistName] >= maximum_search)
+            {
+                return artistName;
+            }
+
+            return null;
+        }
+        */
+
 
         // GET: Artists/Create
         public ActionResult Create()

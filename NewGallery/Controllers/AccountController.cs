@@ -59,23 +59,12 @@ namespace NewGallery.Controllers
             HttpContext.Session["d_favPaint"] = new Dictionary<string,int>();
 
             HttpContext.Session["d_Rate"] = new Dictionary<string, int>();
-
-
-
-
-            /*
-            var claims = new List<Claim>
-            {
-                new Claim(ClaimTypes.Name,user.Username),
-                new Claim("FullName",user.Fullname),
-                new Claim(ClaimTypes.Role,user.Type.ToString())
-
-            };
-
-            var claimsIdentity = new ClaimsIdentity(claims, CookieProtection.Encryption.ToString());
-            await HttpContext.
-            */
         }
+
+
+
+
+
 
         public ActionResult Login()
         {
@@ -219,5 +208,9 @@ namespace NewGallery.Controllers
             }
             base.Dispose(disposing);
         }
+
+
+
+
     }
 }

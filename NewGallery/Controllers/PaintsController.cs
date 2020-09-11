@@ -366,10 +366,13 @@ namespace NewGallery.Controllers
 
         private string statisticsOnCustomer(string paintName) 
         {
-            int maximum_search = 2;
+            int maximum_search = 5;
 
+            /*this lines added to this function to change the rate after numbers of clicks*/
+            int maximum_click = 3;
+            var theChosenArtist = db.Paints.First(paint2 => paint2.PaintID == id_s).artistname;
+            /*this lines added to this function to change the rate after numbers of clicks*/
 
-            
 
             Dictionary<String, int> StatisticsOnPaintType = (Dictionary<string, int>)HttpContext.Session["d_favPaint"];
             if (StatisticsOnPaintType==null)
@@ -387,10 +390,27 @@ namespace NewGallery.Controllers
                 HttpContext.Session["d_favPaint"] = StatisticsOnPaintType;
             }
 
+            /*this lines added to this function to change the rate after numbers of clicks*/
+            if (StatisticsOnPaintType[paintName] >= maximum_click)
+            {
+                Artist artist = new Artist();
+                artist = db.Artists.First(a => a.ArtistName == theChosenArtist);
+                artist.Rate++;
+                db.Entry(artist).State = EntityState.Modified;
+                db.SaveChanges();
+            }
+            /*this lines added to this function to change the rate after numbers of clicks*/
+
             if (StatisticsOnPaintType[paintName] >=maximum_search)
             {
+                
+                
                 return paintName;
             }
+
+            
+
+
 
             return null;
         }
