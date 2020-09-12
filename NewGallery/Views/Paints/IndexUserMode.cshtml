@@ -59,7 +59,7 @@
         height: 50%;
     }
 
-    
+
 
     #searcher {
         background-color: #20c997;
@@ -74,13 +74,14 @@
         padding: 5px;
         text-align: left;
     }
+
     #AandP {
         text-align: center;
     }
+
     #PandC {
         text-align: center;
     }
-
 </style>
 
 
@@ -190,7 +191,7 @@
                             @Html.ActionLink("Details", "Details", new { id = item.PaintID })
                         </td>
                     </tr>
-                 }
+                }
             </table>
         </th>
     </tr>
@@ -262,5 +263,28 @@
             moreText.style.display = "inline";
         }
     }
+
+</script>
+
+<script src="jquery-3.5.1.min.js"></script>
+<script>
+
+    var settings = {
+        "async": true,
+        "crossDomain": true,
+        "url": "https://ronreiter-meme-generator.p.rapidapi.com/meme?font=Impact&font_size=50&meme=Condescending-Wonka&top=Top%20text&bottom=Bottom%20text",
+        "method": "GET",
+        "headers": {
+            "x-rapidapi-host": "ronreiter-meme-generator.p.rapidapi.com",
+            "x-rapidapi-key": "9a55907c3cmsh368aed584a72678p160ed8jsn9f8942ac6fe6"
+        }
+    }
+
+    $.ajax(settings).done(function (response) {
+        console.log(response);
+    });
+
+
+
 
 </script>

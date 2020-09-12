@@ -2309,6 +2309,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="static\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -2341,12 +2342,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202008061246470_adde_num_type.resx">
       <DependentUpon>202008061246470_adde_num_type.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202008070037089_pasword.resx">
       <DependentUpon>202008070037089_pasword.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202008171739204_addingIMGurl.resx">
       <DependentUpon>202008171739204_addingIMGurl.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202008221314412_add2models.resx">
       <DependentUpon>202008221314412_add2models.cs</DependentUpon>
