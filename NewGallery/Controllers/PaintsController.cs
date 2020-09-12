@@ -480,7 +480,7 @@ namespace NewGallery.Controllers
                         Paintlist.Add(p);
                     }
                 }
-                return View(Paintlist);
+                return View("IndexUserMode", Paintlist);
             }
             else if ((paint_name == null || paint_name == "") && price_s == 0)
             {
@@ -491,7 +491,7 @@ namespace NewGallery.Controllers
                         Paintlist.Add(p);
                     }
                 }
-                return View(Paintlist);
+                return View("IndexUserMode", Paintlist);
             }
             else if ((paint_name == null || paint_name == "") && (type_s == null || type_s == ""))
             {
@@ -502,7 +502,7 @@ namespace NewGallery.Controllers
                         Paintlist.Add(p);
                     }
                 }
-                return View(Paintlist);
+                return View("IndexUserMode", Paintlist);
             }
             else if (paint_name == null || paint_name == "")
             {
@@ -513,7 +513,7 @@ namespace NewGallery.Controllers
                         Paintlist.Add(p);
                     }
                 }
-                return View(Paintlist);
+                return View("IndexUserMode", Paintlist);
             }
 
             else if (type_s == null || type_s == "")
@@ -525,7 +525,7 @@ namespace NewGallery.Controllers
                         Paintlist.Add(p);
                     }
                 }
-                return View(Paintlist);
+                return View("IndexUserMode", Paintlist);
             }
             else if (price_s == 0)
             {
@@ -536,7 +536,7 @@ namespace NewGallery.Controllers
                         Paintlist.Add(p);
                     }
                 }
-                return View(Paintlist);
+                return View("IndexUserMode", Paintlist);
             }
             else
             {
@@ -548,7 +548,7 @@ namespace NewGallery.Controllers
                     }
                 }
 
-                return View(Paintlist);
+                return View("IndexUserMode", Paintlist);
             }
 
         }

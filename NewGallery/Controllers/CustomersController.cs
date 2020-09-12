@@ -13,9 +13,7 @@ namespace NewGallery.Controllers
     public class CustomersController : Controller
     {
 
-        /// <summary>
-        /// aaaaaa
-        /// </summary>
+        
         private MyDB db = new MyDB();
 
         // GET: Customers
