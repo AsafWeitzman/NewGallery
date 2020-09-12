@@ -16,38 +16,38 @@
         border-bottom: 1px dotted black;
     }
 
-    .tooltip_1 .tooltiptext_1 {
-        visibility: hidden;
-        width: 600px;
-        background-color: #555;
-        color: #fff;
-        text-align: center;
-        border-radius: 6px;
-        padding: 5px 0;
-        position: absolute;
-        z-index: 1;
-        bottom: 125%;
-        left: 50%;
-        margin-left: -60px;
-        opacity: 0;
-        transition: opacity 0.3s;
-    }
+        .tooltip_1 .tooltiptext_1 {
+            visibility: hidden;
+            width: 600px;
+            background-color: #555;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 0;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%;
+            left: 50%;
+            margin-left: -60px;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
 
-    .tooltip_1 .tooltiptext_1::after {
-        content: "";
-        position: absolute;
-        top: 100%;
-        left: 50%;
-        margin-left: -5px;
-        border-width: 5px;
-        border-style: solid;
-        border-color: #555 transparent transparent transparent;
-    }
+            .tooltip_1 .tooltiptext_1::after {
+                content: "";
+                position: absolute;
+                top: 100%;
+                left: 50%;
+                margin-left: -5px;
+                border-width: 5px;
+                border-style: solid;
+                border-color: #555 transparent transparent transparent;
+            }
 
-    .tooltip_1:hover .tooltiptext_1 {
-        visibility: visible;
-        opacity: 1;
-    }
+        .tooltip_1:hover .tooltiptext_1 {
+            visibility: visible;
+            opacity: 1;
+        }
 
 
     img {
@@ -71,9 +71,8 @@
     }
 
     #AandP {
-        text-align: center; 
+        text-align: center;
     }
-
 </style>
 <style>
     #more {
@@ -83,189 +82,281 @@
 
 <form id="AandP" action="/ArtistandPaints/index" method="get">
     <input type="submit" value="Paints&Artists Table">
-    </form>
+</form>
 
 
-    <table style="width:100%">
-        <tr>
-            <th id="searcher">
+<table style="width:100%">
+    <tr>
+        <th id="searcher">
 
 
-                <form action="/Paints/Search" method="get">
-                    <span id="more">
+            <form action="/Paints/Search" method="get">
+                <span id="more">
 
-                        Enter Paint name to search<br>
-                        <input type="text" name="paintname">
+                    Enter Paint name to search<br>
+                    <input type="text" name="paintname">
 
-                        <br>
-                        <br>
-                        Enter price to search:<br>
-                        <input type="text" name="price">
+                    <br>
+                    <br>
+                    Enter price to search:<br>
+                    <input type="text" name="price">
 
-                        <br>
-                        <br>
-                        Enter Type to serch:<br>
-                        <input type="text" name="type">
+                    <br>
+                    <br>
+                    Enter Type to serch:<br>
+                    <input type="text" name="type">
 
-                        <br>
-                        <br>
-                        <br /><br />
-                        <input type="submit" value="Search">
-                    </span>
-                </form>
-            </th>
-            <th colspan="2">
-
-
-                <button onclick="myFunction()" id="myBtn">Advenced Search</button>
-                <input type="text" id="textsearch" placeholder="For quick Paint name filter...">
+                    <br>
+                    <br>
+                    <br /><br />
+                    <input type="submit" value="Search">
+                </span>
+            </form>
+        </th>
+        <th colspan="2">
 
 
-                <table class="table">
+            <button onclick="myFunction()" id="myBtn">Advenced Search</button>
+            <input type="text" id="textsearch" placeholder="For quick Paint name filter...">
+
+
+            <table class="table">
+                <tr>
+                    <th>
+                        @Html.ActionLink("Artist Name", "Index", new { sortOrder = ViewBag.NameSortParm })
+
+                    </th>
+                    <th>
+
+                        @Html.DisplayNameFor(model => model.Paintname)
+
+                    </th>
+
+                    <th>
+                        @Html.DisplayNameFor(model => model.CreateDate)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Size)
+                    </th>
+                    <th>
+                        @Html.ActionLink("Price", "Index", new { sortOrder = ViewBag.PriceSortParm })
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Type)
+                    </th>
+                    <th></th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
                     <tr>
-                        <th>
-                            @Html.ActionLink("Artist Name", "Index", new { sortOrder = ViewBag.NameSortParm })
+                        <td>
+                            @Html.DisplayFor(modelItem => item.artistname)
+                        </td>
 
-                        </th>
-                        <th>
+                        <td>
 
-                            @Html.DisplayNameFor(model => model.Paintname)
+                            <div class="tooltip_1">
+                                @Html.DisplayFor(modelItem => item.Paintname)
+                                <span class="tooltiptext_1"><img src=" @Html.DisplayFor(modelItem => item.ImgUrl)"></span>
+                            </div>
+                        </td>
 
-                        </th>
-
-                        <th>
-                            @Html.DisplayNameFor(model => model.CreateDate)
-                        </th>
-                        <th>
-                            @Html.DisplayNameFor(model => model.Size)
-                        </th>
-                        <th>
-                            @Html.ActionLink("Price", "Index", new { sortOrder = ViewBag.PriceSortParm })
-                        </th>
-                        <th>
-                            @Html.DisplayNameFor(model => model.Type)
-                        </th>
-                        <th></th>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CreateDate)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Size)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Price)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Type)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", new { id = item.PaintID }) |
+                            @Html.ActionLink("Details", "Details", new { id = item.PaintID }) |
+                            @Html.ActionLink("Delete", "Delete", new { id = item.PaintID })
+                        </td>
                     </tr>
-
-                    @foreach (var item in Model)
-                    {
-                        <tr>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.artistname)
-                            </td>
-
-                            <td>
-
-                                <div class="tooltip_1">
-                                    @Html.DisplayFor(modelItem => item.Paintname)
-                                    <span class="tooltiptext_1"><img src=" @Html.DisplayFor(modelItem => item.ImgUrl)"></span>
-                                </div>
-                            </td>
-
-                            <td>
-                                @Html.DisplayFor(modelItem => item.CreateDate)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.Size)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.Price)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.Type)
-                            </td>
-                            <td>
-                                @Html.ActionLink("Edit", "Edit", new { id = item.PaintID }) |
-                                @Html.ActionLink("Details", "Details", new { id = item.PaintID }) |
-                                @Html.ActionLink("Delete", "Delete", new { id = item.PaintID })
-                            </td>
-                        </tr>
-                    }
-
-                </table>
-            </th>
-        </tr>
-
-
-        <tr>
-            <th colspan="3">
-                <style>
-                    svg rect {
-                        fill: orange;
-                    }
-
-                    svg text {
-                        fill: #20c997;
-                        font: 10px sans-serif;
-                        text-anchor: end;
-                    }
-                </style>
-                <h3>Our Artists Paints Leaders :</h3>
-                <article>
-                    <svg class="chart" width="520" height="520">
-                        @for (var i = 0; i < Model.GroupBy(p => p.artistname).Count(); i++)
-                        {
-
-                            var t = "translate(0," + (i * 20) + ")";
-                            <g transform=@t>
-                                <rect width=@(Model.GroupBy(p => p.artistname).ElementAt(i).Count()*100) height="19"></rect>
-                                <text x=@(Model.GroupBy(p => p.artistname).ElementAt(i).Count()*160+10) y="9.5" dy=".35em" id="index_1">@Model.GroupBy(p => p.artistname).ElementAt(i).Key with count of : @(Model.GroupBy(p => p.artistname).ElementAt(i).Count())</text>
-                            </g>
-                        }
-
-                    </svg>
-                </article>
-            </th>
-        </tr>
-    </table>
-
-
-
-
-
-
-
-
-
-    <script src="~/js/jquery-3.3.1.min.js"></script>
-
-    <script>
-        $("#textsearch").on("keyup", function () {
-
-            var textenter = $(this).val();
-            $("table tr").each(function (res) {
-                if (res !== 0) {
-                    var id = $(this).find("td:nth-child(2)").text();
-                    if (id.indexOf(textenter) !== 0 && id.toLowerCase().indexOf(textenter.toLowerCase()) < 0) {
-                        $(this).hide();
-                    }
-                    else {
-                        $(this).show();
-                    }
                 }
-            });
-        });
-    </script>
 
-    <script>
-        function myFunction() {
+            </table>
+        </th>
+    </tr>
 
-            var moreText = document.getElementById("more");
-            var btnText = document.getElementById("myBtn");
 
-            if (moreText.style.display === "inline") {
-                btnText.innerHTML = "Advenced Search";
-                moreText.style.display = "none";
-            }
-            else {
+    <tr>
 
-                btnText.innerHTML = "Hide Advenced search";
-                moreText.style.display = "inline";
-            }
+        <th colspan="3">
+
+            <div id="chart"></div>
+
+
+        </th>
+    </tr>
+</table>
+
+
+
+
+
+<!--chart-->
+
+<style>
+    #chart {
+        width: 900.141px;
+        height: 350px;
+    }
+</style>
+
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="data.js"></script>
+<script src="scripts.js"></script>
+<script src="https://d3js.org/d3.v6.min.js"></script>
+
+<script>
+
+    /*****************************************************************/
+
+    var myNamesArray = [];
+    var myCountArray = [];
+    var myCategoryArray = [];
+
+
+    @{  List<string> c_myNamesList = new List<string>();
+        List<int> c_myCountList = new List<int>();
+
+        List<string> c_myCategoryList = new List<string>();
+
+        int counter = 0;
+        foreach (var item in Model)
+        {
+            counter++;
         }
 
-    </script>
+        for (var i = 0; i < Model.GroupBy(p => p.artistname).Count(); i++)
+        {
+            c_myNamesList.Add(Model.GroupBy(p => p.artistname).ElementAt(i).Key); // name
+            c_myCountList.Add(Model.GroupBy(p => p.artistname).ElementAt(i).Count()); //count
+
+            c_myCategoryList.Add("A");
+
+        }
+
+        string[] c_myNamesArray = c_myNamesList.ToArray();
+        int[] c_myRateArray = c_myCountList.ToArray();
+        string[] c_myCategoryArray = c_myCategoryList.ToArray();
+
+    }
+
+    var myNamesArray = @Html.Raw(Json.Encode(c_myNamesArray));
+    var myCountArray = @Html.Raw(Json.Encode(c_myRateArray));
+    var myCategoryArray = @Html.Raw(Json.Encode(c_myCategoryArray));
+
+    var data2 = [];
+    var size = myNamesArray.length;
+
+    for (var i = 0; i < size; i++) {
+        var temp_data2 = { name: myNamesArray[i], value: myCountArray[i], category: myCategoryArray[i] };
+        data2.push(temp_data2)
+    }
 
 
-    <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+    /*****************************************************************/
+
+    data2.sort(function (a, b) {
+        return b.value - a.value;
+    });
+
+    var dataArray = [];
+    var headers = ['Name', 'Value', { role: 'style' }, { role: 'annotation' }]
+    dataArray.push(headers);
+    data2.forEach(function (d, i) {
+        d.category === 'A' ? fill = '#20c997' : fill = '#B44682';
+        i === 0 || i === data2.length - 1 ? annotation = d.value : annotation = null;
+        i === 0 || i === data2.length - 1 ? fill = '#2b9274' : fill = '#20c997';
+
+        dataArray.push([d.name, d.value, fill, annotation]);
+    });
+
+    google.charts.load('current', { 'packages': ['corechart'] });
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+        var data = google.visualization.arrayToDataTable(dataArray);
+
+        var options = {
+            chartArea: {
+                top: 10,
+                bottom: 0,
+                left: 65,
+                right: 50
+            },
+            hAxis: {
+                gridlines: {
+                    color: '#fff'
+                }
+            },
+            legend: 'none',
+            vAxis: {
+                textStyle: {
+                    fontName: 'Josefin Sans',
+                    fontSize: 16,
+                    color: '#4D4D4D'
+                }
+            }
+        };
+
+        var chart = new google.visualization.BarChart(document.getElementById('chart'));
+
+        chart.draw(data, options);
+    }
+</script>
+<!--chrat-->
+
+
+
+<script src="~/js/jquery-3.3.1.min.js"></script>
+
+<script>
+    $("#textsearch").on("keyup", function () {
+
+        var textenter = $(this).val();
+        $("table tr").each(function (res) {
+            if (res !== 0) {
+                var id = $(this).find("td:nth-child(2)").text();
+                if (id.indexOf(textenter) !== 0 && id.toLowerCase().indexOf(textenter.toLowerCase()) < 0) {
+                    $(this).hide();
+                }
+                else {
+                    $(this).show();
+                }
+            }
+        });
+    });
+</script>
+
+<script>
+    function myFunction() {
+
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+
+        if (moreText.style.display === "inline") {
+            btnText.innerHTML = "Advenced Search";
+            moreText.style.display = "none";
+        }
+        else {
+
+            btnText.innerHTML = "Hide Advenced search";
+            moreText.style.display = "inline";
+        }
+    }
+
+</script>
+
+
+<!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->

@@ -36,19 +36,48 @@ namespace NewGallery.Controllers
         public PartialViewResult All()
         {
             List<Artist> artistlist = db.Artists.ToList();
+            
             return PartialView("PartialView", artistlist);
+
         }
         public PartialViewResult Top3ArtistRate()
         {
             List<Artist> artistlist = db.Artists.OrderByDescending(a=>a.Rate).Take(3).ToList();
+            string user = (string)HttpContext.Session["Type"];
+
             return PartialView("PartialView", artistlist);
 
         }
         public PartialViewResult Buttom3ArtistRate()
         {
             List<Artist> artistlist = db.Artists.OrderBy(a => a.Rate).Take(3).ToList();
+            
             return PartialView("PartialView", artistlist);
         }
+
+        /***************************Usermode****************************/
+        
+        public PartialViewResult AllUserMode()
+        {
+            List<Artist> artistlist = db.Artists.ToList();
+            return PartialView("PartialViewUserMode", artistlist);
+        }
+        public PartialViewResult Top3ArtistRateUserMode()
+        {
+            List<Artist> artistlist = db.Artists.OrderByDescending(a => a.Rate).Take(3).ToList();
+            return PartialView("PartialViewUserMode", artistlist);
+
+        }
+        public PartialViewResult Buttom3ArtistRateUserMode()
+        {
+            List<Artist> artistlist = db.Artists.OrderBy(a => a.Rate).Take(3).ToList();
+            return PartialView("PartialViewUserMode", artistlist);
+        }
+        
+        /***************************Usermode****************************/
+
+
+
         // GET: Artists
 
         public ActionResult IndexUserMode()
