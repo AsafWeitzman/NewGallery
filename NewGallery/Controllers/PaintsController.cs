@@ -375,6 +375,26 @@ namespace NewGallery.Controllers
 
 
             Dictionary<String, int> StatisticsOnPaintType = (Dictionary<string, int>)HttpContext.Session["d_favPaint"];
+
+            //last edit
+            Dictionary<String, int> StatisticsOnPaintType2 = (Dictionary<string, int>)HttpContext.Session["d_Rate"];
+            if (StatisticsOnPaintType2 == null)
+            {
+                StatisticsOnPaintType2 = new Dictionary<string, int>();
+            }
+            if (StatisticsOnPaintType2.ContainsKey(paintName) == true)
+            {
+                StatisticsOnPaintType2[paintName] += 1;
+                HttpContext.Session["d_favPaint"] = StatisticsOnPaintType2;
+            }
+            else
+            {
+                StatisticsOnPaintType2.Add(paintName, 1);
+                HttpContext.Session["d_favPaint"] = StatisticsOnPaintType2;
+            }
+            //last edit
+
+            //origin
             if (StatisticsOnPaintType==null)
             {
                 StatisticsOnPaintType = new Dictionary<string, int>();
@@ -389,27 +409,49 @@ namespace NewGallery.Controllers
                 StatisticsOnPaintType.Add(paintName, 1);
                 HttpContext.Session["d_favPaint"] = StatisticsOnPaintType;
             }
+            //origin
+
+
+            //last edit
+            if (StatisticsOnPaintType2[paintName] >= maximum_click)
+            {
+                Artist artist = new Artist();
+                artist = db.Artists.First(a => a.ArtistName == theChosenArtist);
+                artist.Rate++;
+                StatisticsOnPaintType2[paintName] = 0;
+                db.Entry(artist).State = EntityState.Modified;
+                db.SaveChanges();
+
+            }
+            if (StatisticsOnPaintType[paintName] >= maximum_search)
+            {
+                StatisticsOnPaintType[paintName] = 0;
+                return paintName;
+            }
+            //last edit
+
 
             /*this lines added to this function to change the rate after numbers of clicks*/
-            if (StatisticsOnPaintType[paintName] >= maximum_click)
+            /*<<<<< ירד לבדיקה
+            if (StatisticsOnPaintType[paintName] >= maximum_click )
             {
                 Artist artist = new Artist();
                 artist = db.Artists.First(a => a.ArtistName == theChosenArtist);
                 artist.Rate++;
                 db.Entry(artist).State = EntityState.Modified;
                 db.SaveChanges();
+                
             }
             /*this lines added to this function to change the rate after numbers of clicks*/
-
+            /*<<<< ירד לבדיקה 
             if (StatisticsOnPaintType[paintName] >=maximum_search)
             {
-                
-                
+
+                //init
+                StatisticsOnPaintType[paintName] = 0;
+                //
                 return paintName;
-            }
-
-            
-
+            }*/
 
 
             return null;
