@@ -197,34 +197,135 @@
     </tr>
     <tr>
         <th colspan="3">
-            <style>
-                svg rect {
-                    fill: orange;
-                }
 
-                svg text {
-                    fill: #20c997;
-                    font: 10px sans-serif;
-                    text-anchor: end;
-                }
-            </style>
-            <h3>Our Artists Paints Leaders :</h3>
-            <article>
-                <svg class="chart" width="520" height="520">
-                    @for (var i = 0; i < Model.GroupBy(p => p.artistname).Count(); i++)
-                    {
 
-                        var t = "translate(0," + (i * 20) + ")";
-                        <g transform=@t>
-                            <rect width=@(Model.GroupBy(p => p.artistname).ElementAt(i).Count()*100) height="19"></rect>
-                            <text x=@(Model.GroupBy(p => p.artistname).ElementAt(i).Count()*160+10) y="9.5" dy=".35em" id="index_1">@Model.GroupBy(p => p.artistname).ElementAt(i).Key with count of : @(Model.GroupBy(p => p.artistname).ElementAt(i).Count())</text>
-                        </g>
-                    }
-                </svg>
-            </article>
+            <div id="chart"></div>
+
+
         </th>
     </tr>
 </table>
+
+
+<!--chart-->
+
+<style>
+    #chart {
+        width: 900.141px;
+        height: 350px;
+    }
+</style>
+
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="data.js"></script>
+<script src="scripts.js"></script>
+<script src="https://d3js.org/d3.v6.min.js"></script>
+
+<script>
+
+    /*****************************************************************/
+
+    var myNamesArray = [];
+    var myCountArray = [];
+    var myCategoryArray = [];
+
+
+    @{  List<string> c_myNamesList = new List<string>();
+        List<int> c_myCountList = new List<int>();
+
+        List<string> c_myCategoryList = new List<string>();
+
+        int counter = 0;
+        foreach (var item in Model)
+        {
+            counter++;
+        }
+
+        for (var i = 0; i < Model.GroupBy(p => p.artistname).Count(); i++)
+        {
+            c_myNamesList.Add(Model.GroupBy(p => p.artistname).ElementAt(i).Key); // name
+            c_myCountList.Add(Model.GroupBy(p => p.artistname).ElementAt(i).Count()); //count
+
+            c_myCategoryList.Add("A");
+
+        }
+
+        string[] c_myNamesArray = c_myNamesList.ToArray();
+        int[] c_myRateArray = c_myCountList.ToArray();
+        string[] c_myCategoryArray = c_myCategoryList.ToArray();
+
+    }
+
+    var myNamesArray = @Html.Raw(Json.Encode(c_myNamesArray));
+    var myCountArray = @Html.Raw(Json.Encode(c_myRateArray));
+    var myCategoryArray = @Html.Raw(Json.Encode(c_myCategoryArray));
+
+    var data2 = [];
+    var size = myNamesArray.length;
+
+    for (var i = 0; i < size; i++) {
+        var temp_data2 = { name: myNamesArray[i], value: myCountArray[i], category: myCategoryArray[i] };
+        data2.push(temp_data2)
+    }
+
+
+    /*****************************************************************/
+
+    data2.sort(function (a, b) {
+        return b.value - a.value;
+    });
+
+    var dataArray = [];
+    var headers = ['Name', 'Value', { role: 'style' }, { role: 'annotation' }]
+    dataArray.push(headers);
+    data2.forEach(function (d, i) {
+        d.category === 'A' ? fill = '#20c997' : fill = '#B44682';
+        i === 0 || i === data2.length - 1 ? annotation = d.value : annotation = null;
+        i === 0 || i === data2.length - 1 ? fill = '#2b9274' : fill = '#20c997';
+
+        dataArray.push([d.name, d.value, fill, annotation]);
+    });
+
+    google.charts.load('current', { 'packages': ['corechart'] });
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+        var data = google.visualization.arrayToDataTable(dataArray);
+
+        var options = {
+            chartArea: {
+                top: 10,
+                bottom: 0,
+                left: 65,
+                right: 50
+            },
+            hAxis: {
+                gridlines: {
+                    color: '#fff'
+                }
+            },
+            legend: 'none',
+            vAxis: {
+                textStyle: {
+                    fontName: 'Helvetica Neue',
+                    fontSize: 14
+                }
+            }
+        };
+
+        var chart = new google.visualization.BarChart(document.getElementById('chart'));
+
+        chart.draw(data, options);
+    }
+</script>
+<!--chrat-->
+
+
+
+
+
+
 
 
 <script src="~/js/jquery-3.3.1.min.js"></script>
