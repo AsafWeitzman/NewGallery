@@ -127,7 +127,7 @@ namespace NewGallery.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ArtistID,ArtistName,Email,FavoriteStyle,Rate")] Artist artist)
+        public ActionResult Create([Bind(Include = "ArtistID,ArtistName,Email,FavoriteStyle,Rate = 0")] Artist artist)
         {
             if (ModelState.IsValid)
             {
